@@ -1,4 +1,4 @@
-# 🌏 世界与规则 (World & Rules) v2.6
+# 🌏 世界与规则 (World & Rules)
 
 ## 1. 国家概况与经济行情 (National Overview & Economy)
 
