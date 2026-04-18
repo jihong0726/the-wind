@@ -1,0 +1,172 @@
+# 《慢慢有风》账号迁移包 — 总清单
+
+**生成日期**: 2026-04-18
+**当前状态**: Ch.020 定稿完成，state.json v2.1
+**用途**: 换 Claude 账号后保持同样的《慢慢有风》写作输出能力
+
+---
+
+## 📦 本目录包含（已生成）
+
+```
+慢慢有风_迁移包_20260418/
+├── 00_迁移清单.md              ← 本文件（先读我）
+├── CLAUDE.md                   ← 全局指令（账号级）
+├── skills/
+│   ├── winter-voice.md         ← 林冬偶数章写作规范
+│   ├── jiahong-voice.md        ← 嘉弘奇数章写作规范
+│   ├── seba-style.md           ← 蝴蝶 Seba 文风底座
+│   └── novel-writer.md         ← 长篇小说通用协作
+└── 项目文件_外带清单.md         ← 项目文件路径列表（需从原位置带走）
+```
+
+---
+
+## 🎯 迁移三步走
+
+### 第 1 步：部署 Skill（新账号）
+
+把 `skills/` 下 4 个 md 文件分别放入新账号的 skills 目录（Mac 路径示例）：
+
+```
+~/Library/Application Support/Claude/skills/winter-voice/SKILL.md
+~/Library/Application Support/Claude/skills/jiahong-voice/SKILL.md
+~/Library/Application Support/Claude/skills/seba-style/SKILL.md
+~/Library/Application Support/Claude/skills/novel-writer/SKILL.md
+```
+
+> 注意：skill 的文件名必须是 `SKILL.md`（大写），**所在文件夹名** = skill name（如 `winter-voice/`）。
+> 本包里为了清晰用了 `winter-voice.md` 的文件名，部署时要改名为 `SKILL.md` 并放入对应子文件夹。
+
+### 第 2 步：部署全局指令
+
+把 `CLAUDE.md` 放到：
+
+```
+~/Library/Application Support/Claude/CLAUDE.md
+```
+
+或新账号 Claude Cowork 的全局指令位置（视版本而定）。
+
+### 第 3 步：把项目目录整个带过去
+
+参见 `项目文件_外带清单.md`，关键是把整个 `慢慢有风_重构V2_20260417/` 目录复制到新账号的工作区。
+
+---
+
+## ⚠️ 已知风险（迁移前必读）
+
+| 风险 | 状态 | 处理 |
+|---|---|---|
+| `WRITING_RULES.md` 在项目目录未找到 | **[unknown]** 两个 voice skill 声明它是最高权威 | 新账号首次写作前，要么找回此文件，要么告诉 Claude "没有 WRITING_RULES.md，以 SKILL.md 为准" |
+| `04_工具/ai_fingerprint_check.py` 未找到 | **[unknown]** winter-voice 第 9 步强制调用 | 当前每章我用 inline Python 跑正则，新账号可以沿用；要固化脚本见本包附录 |
+| skill 里提到的 `03_草稿/第X卷/` 路径 | **[confirmed]** 与实际项目目录 `02_正文/` 不一致 | 新账号首次使用时，要么重命名目录，要么明确告诉 Claude "正文目录是 02_正文 不是 03_草稿" |
+
+---
+
+## 📊 当前进度锚点（给新账号的交接页）
+
+| 项 | 值 |
+|---|---|
+| 已写章节 | Ch.001 – Ch.020 |
+| 下一章 | Ch.021（嘉弘 POV，按卷一分镜） |
+| 当前故事时间 | 2026-05-04 周一 |
+| 字数门槛 | 每章 ≥ 3000 汉字 |
+| AI 指纹门槛 | ≤ 5‰ 🟢 / 5-10‰ 🟡 / >10‰ 🔴 重写 |
+| state.json 版本 | v2.1 |
+| 跨 POV 汇合点 | Ch.087-089（前移锁定） |
+
+最近 5 章得分：
+- Ch.016: 1.20‰ (3324 字)
+- Ch.017: 1.33‰ (3009 字)
+- Ch.018: 1.00‰ (3009 字)
+- Ch.019: 1.98‰ (3026 字)
+- Ch.020: 0.33‰ (3001 字)
+
+---
+
+## 🔧 附录：AI 指纹验证脚本（固化版）
+
+`04_工具/ai_fingerprint_check.py` 没找到，下面是每章用的等价脚本，可直接存为文件调用：
+
+```python
+#!/usr/bin/env python3
+"""AI 指纹与字数机械验证"""
+import re, sys
+from pathlib import Path
+
+def check(md_path):
+    text = Path(md_path).read_text(encoding='utf-8')
+    body = text.split('**写作备注**')[0]
+
+    hanzi = len(re.findall(r'[\u4e00-\u9fff]', body))
+
+    patterns = {
+        'T1-DASH':       (r'——[^\n]{1,8}。', 2),
+        'T1-LONG-DASH':  (r'——[^\n]{25,}', 2),
+        'T1-NEG-EQ':     (r'不是[^\n，。]{1,20}，是[^\n。]{1,20}', 2),
+        'T1-NEG-DASH':   (r'不是[^\n。]{1,20}——', 2),
+        'T1-KIND-OF':    (r'的那种', 2),
+        'T1-LIKE':       (r'像是[^\n。]|像一[^\n。]', 2),
+        'T1-THERE-IS':   (r'有一种[^\n。]{1,15}的', 2),
+        'T2-THIS-IS':    (r'这是[^\n。]{1,30}最[^\n。]{1,15}的一[次回个]', 2),
+        'T2-STATE':      (r'[^\n]{1,10}的状态', 2),
+    }
+
+    total, detail = 0, {}
+    for name, (pat, lim) in patterns.items():
+        m = re.findall(pat, body)
+        if m:
+            detail[name] = (len(m), m[:3])
+            total += len(m)
+
+    rate = total / hanzi * 1000 if hanzi else 0
+
+    banned = ['呵','冷笑','勾起嘴角','不由得','不禁','他感到','她感到','心中一动','脑海中']
+    places = ['首尔','韩国','釜山','台北','台南','台湾','吉隆坡','马来西亚']
+    bh = {w: body.count(w) for w in banned if body.count(w) > 0}
+    ph = {w: body.count(w) for w in places if body.count(w) > 0}
+
+    print(f"汉字数: {hanzi}")
+    print(f"AI 指纹: {total} / {rate:.2f}‰")
+    for k, (n, ex) in detail.items():
+        print(f"  {k}: {n} 处 {ex}")
+    print(f"字数: {'🟢' if hanzi >= 3000 else '🔴'} {hanzi}/3000")
+    print(f"指纹: {'🟢' if rate <= 5 else ('🟡' if rate <= 10 else '🔴')} {rate:.2f}‰")
+    print(f"禁用词: {bh or '无'}")
+    print(f"真实地名: {ph or '无'}")
+
+if __name__ == '__main__':
+    check(sys.argv[1])
+```
+
+保存为 `04_工具/ai_fingerprint_check.py`，`chmod +x` 即可。
+
+---
+
+## 📝 新账号首次对话开场白（copy-ready）
+
+```
+我是 Ji Hong。我在换账号。这是《慢慢有风》666 章连载小说项目，双 POV 严格
+交替（奇=嘉弘 / 偶=林冬）。已写 Ch.001-020。
+
+已部署：
+- winter-voice / jiahong-voice / seba-style / novel-writer 四个 skill
+- CLAUDE.md 全局指令
+
+项目目录：[新路径]/慢慢有风_重构V2_20260417/
+- 状态机：00_state.json（v2.1）
+- 已写正文：02_正文/（不是 skill 里说的 03_草稿）
+- 分镜：01_卷一分镜_111章.md
+- 笑话分配：00_笑话分配表.md
+
+下一章：Ch.021 嘉弘 POV，05-05 周二，按分镜写。
+
+先读 00_state.json 和 02_正文/第019章、第020章 对齐状态，再开始。
+```
+
+---
+
+**生成者**: Claude Cowork 会话
+**源账号**: jihong.kong@okg.com
+**源 session**: /sessions/serene-peaceful-shannon/
