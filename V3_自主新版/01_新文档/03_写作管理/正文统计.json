@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 63,
-  "chapter_count": 63,
-  "total_han": 186161,
-  "total_non_whitespace_including_punctuation": 217517,
+  "through_chapter": 64,
+  "chapter_count": 64,
+  "total_han": 188025,
+  "total_non_whitespace_including_punctuation": 219698,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -251,9 +251,9 @@
     {
       "number": 34,
       "path": "01_新文档/01_正文/第034章_她还是用那把椅子.md",
-      "han": 2256,
-      "non_whitespace_including_punctuation": 2617,
-      "sha256": "d6c0b658385a224b4f2ac2be668b221767aa20326ba83a45d7c0a6aacf9fa531"
+      "han": 2234,
+      "non_whitespace_including_punctuation": 2593,
+      "sha256": "33577e59378849118c315f3902df67bb2172ff59bd9f28faa0886e01f8fd5772"
     },
     {
       "number": 35,
@@ -457,6 +457,13 @@
       "han": 3085,
       "non_whitespace_including_punctuation": 3613,
       "sha256": "753d0f09ce2625a5bb9fd194cccf92c76194ab7be9f1bbe07cb7a2f117dbe5ba"
+    },
+    {
+      "number": 64,
+      "path": "01_新文档/01_正文/第064章_纸皇冠.md",
+      "han": 1886,
+      "non_whitespace_including_punctuation": 2205,
+      "sha256": "6f884b28db9c0bcd7f41598abf79b9ae8d2b422821eacae4f528d2db1063e90d"
     }
   ],
   "errors": [],
