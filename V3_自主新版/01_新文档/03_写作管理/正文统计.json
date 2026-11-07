@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 65,
-  "chapter_count": 65,
-  "total_han": 191292,
-  "total_non_whitespace_including_punctuation": 223453,
+  "through_chapter": 66,
+  "chapter_count": 66,
+  "total_han": 195072,
+  "total_non_whitespace_including_punctuation": 227825,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -471,6 +471,13 @@
       "han": 3267,
       "non_whitespace_including_punctuation": 3755,
       "sha256": "ba25f76038ceadca2dbeae9a10b3652737cccda051a15d66b0f5519f5da8d9d5"
+    },
+    {
+      "number": 66,
+      "path": "01_新文档/01_正文/第066章_看这边.md",
+      "han": 3780,
+      "non_whitespace_including_punctuation": 4372,
+      "sha256": "b9c16c5614abedd80823529c3a1263544d1b1a1c531253821e5d7a21236aa724"
     }
   ],
   "errors": [],
