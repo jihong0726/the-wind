@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 46,
-  "chapter_count": 46,
-  "total_han": 128907,
-  "total_non_whitespace_including_punctuation": 150346,
+  "through_chapter": 47,
+  "chapter_count": 47,
+  "total_han": 132299,
+  "total_non_whitespace_including_punctuation": 154243,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -338,6 +338,13 @@
       "han": 3224,
       "non_whitespace_including_punctuation": 3738,
       "sha256": "07f42dd8e62bb304edee41dea8bbc0d29d6f7ac46a69ce68b771fe927231fd2c"
+    },
+    {
+      "number": 47,
+      "path": "01_新文档/01_正文/第047章_最后选哪一首.md",
+      "han": 3392,
+      "non_whitespace_including_punctuation": 3897,
+      "sha256": "6b9899b0cd859c05a67f25e3392372ec239c34fee4dd42f541b9e4b3fbae6d32"
     }
   ],
   "errors": [],
