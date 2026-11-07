@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 36,
-  "chapter_count": 36,
-  "total_han": 104161,
-  "total_non_whitespace_including_punctuation": 121504,
+  "through_chapter": 39,
+  "chapter_count": 39,
+  "total_han": 111948,
+  "total_non_whitespace_including_punctuation": 130542,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -268,6 +268,27 @@
       "han": 2722,
       "non_whitespace_including_punctuation": 3182,
       "sha256": "f2d9568051295d2feed253e64567624b780f7e1f14e61c7671d2a6b52a871b93"
+    },
+    {
+      "number": 37,
+      "path": "01_新文档/01_正文/第037章_这张床先走.md",
+      "han": 3008,
+      "non_whitespace_including_punctuation": 3472,
+      "sha256": "9be7a589627266ff84b62cf805ed2c361c3ae35f52103aeb8589ad448840eb31"
+    },
+    {
+      "number": 38,
+      "path": "01_新文档/01_正文/第038章_下午还要打.md",
+      "han": 2763,
+      "non_whitespace_including_punctuation": 3193,
+      "sha256": "5ecff3dc551b7e562596395bcfd80ac76bdd1521c559d596d7f6e009f0ff095b"
+    },
+    {
+      "number": 39,
+      "path": "01_新文档/01_正文/第039章_她们已经逛过了.md",
+      "han": 2016,
+      "non_whitespace_including_punctuation": 2373,
+      "sha256": "4c37fdb602956a8dd4b789b35de0b3dbde2ca6f13b9f799a24f6af1bbe4f22e4"
     }
   ],
   "errors": [],
