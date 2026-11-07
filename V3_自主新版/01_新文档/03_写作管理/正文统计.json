@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 41,
-  "chapter_count": 41,
-  "total_han": 117569,
-  "total_non_whitespace_including_punctuation": 137075,
+  "through_chapter": 44,
+  "chapter_count": 44,
+  "total_han": 122741,
+  "total_non_whitespace_including_punctuation": 143210,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -20,9 +20,9 @@
     {
       "number": 1,
       "path": "01_新文档/01_正文/第001章_搬不进去的柜子.md",
-      "han": 5509,
-      "non_whitespace_including_punctuation": 6451,
-      "sha256": "06ece674de0832acfbccf71339a67f5a54d10e5e71f0142143a241c30b1d53ca"
+      "han": 3473,
+      "non_whitespace_including_punctuation": 4075,
+      "sha256": "f9494e6cea9ae326fd6b30f1ba3621c35475283af8bc8018cb1ccfb64c114633"
     },
     {
       "number": 2,
@@ -303,6 +303,27 @@
       "han": 2620,
       "non_whitespace_including_punctuation": 3095,
       "sha256": "34c94d1fca97e2089fc13847dbd07e49a478201d0d2c80bcb0e397f0c0e961c8"
+    },
+    {
+      "number": 42,
+      "path": "01_新文档/01_正文/第042章_先坐会儿.md",
+      "han": 2684,
+      "non_whitespace_including_punctuation": 3192,
+      "sha256": "93c2e5ee6711e09fe6cbec14ba898de5ee9831f55012dce4682eb894c260e293"
+    },
+    {
+      "number": 43,
+      "path": "01_新文档/01_正文/第043章_这次有三个人.md",
+      "han": 1957,
+      "non_whitespace_including_punctuation": 2369,
+      "sha256": "843c4cc991bfe11d8c6d6f047ce402b00df07195a38feb4a96a84914486d3f6e"
+    },
+    {
+      "number": 44,
+      "path": "01_新文档/01_正文/第044章_晚安以后.md",
+      "han": 2567,
+      "non_whitespace_including_punctuation": 2950,
+      "sha256": "0e473bcede4d84565be5a430d5901c2713f2e90bec44a94a6444bd582bedb06c"
     }
   ],
   "errors": [],
