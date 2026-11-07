@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 14,
-  "chapter_count": 14,
-  "total_han": 49685,
-  "total_non_whitespace_including_punctuation": 57830,
+  "through_chapter": 18,
+  "chapter_count": 18,
+  "total_han": 58795,
+  "total_non_whitespace_including_punctuation": 68311,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -27,9 +27,9 @@
     {
       "number": 2,
       "path": "正文/第002章_晚一点才看见.md",
-      "han": 6067,
-      "non_whitespace_including_punctuation": 7038,
-      "sha256": "df395d729628617f5137b0057a38931c154e7fa662b047f14f871517678f7c8e"
+      "han": 6025,
+      "non_whitespace_including_punctuation": 6992,
+      "sha256": "97197e43b74d79f70789e275acca93dd06a5b9728b336e91ee9676cc45420a45"
     },
     {
       "number": 3,
@@ -55,9 +55,9 @@
     {
       "number": 6,
       "path": "正文/第006章_现场比图纸吵.md",
-      "han": 3372,
-      "non_whitespace_including_punctuation": 3901,
-      "sha256": "c384f1813eb29b72f61a6b6a71bde9e877b48c410710d8031e62eed38f819924"
+      "han": 3299,
+      "non_whitespace_including_punctuation": 3822,
+      "sha256": "71011a3cd30835ad2c6849a54b5028af506c2630c6351c5485fa3d3b2dd83521"
     },
     {
       "number": 7,
@@ -76,9 +76,9 @@
     {
       "number": 9,
       "path": "正文/第009章_不是所有事都需要建议.md",
-      "han": 2687,
-      "non_whitespace_including_punctuation": 3105,
-      "sha256": "8eee28185b82a6a4dc1d4790100ca5e3b93db192ce89965025f0bcdfdbd9c4c6"
+      "han": 2418,
+      "non_whitespace_including_punctuation": 2801,
+      "sha256": "9e663a087ec2a8382d104850d138aa36c6bd2ef1638a00e10211d1e11cf68bef"
     },
     {
       "number": 10,
@@ -90,9 +90,9 @@
     {
       "number": 11,
       "path": "正文/第011章_先吃那块炸物.md",
-      "han": 2637,
-      "non_whitespace_including_punctuation": 3170,
-      "sha256": "36b98288ad23b8baea3db96f195a3fd23dcf920a1f8958a5fa7723f2c31c6909"
+      "han": 2611,
+      "non_whitespace_including_punctuation": 3140,
+      "sha256": "f5489bddd3cb5a26ef32a13684c0d979fc2c0547313348b52dcc4863a3951952"
     },
     {
       "number": 12,
@@ -111,9 +111,37 @@
     {
       "number": 14,
       "path": "正文/第014章_最后一遍.md",
-      "han": 3083,
-      "non_whitespace_including_punctuation": 3536,
-      "sha256": "4bb4db2dc40047c5061b680056d16583c898d1b1072f05e5355ee49ec822f503"
+      "han": 3057,
+      "non_whitespace_including_punctuation": 3506,
+      "sha256": "dcebd81e287527ce0334885d815ad0846b3756693e418d9868136f1cdd9339a3"
+    },
+    {
+      "number": 15,
+      "path": "正文/第015章_盘子是她的.md",
+      "han": 2789,
+      "non_whitespace_including_punctuation": 3221,
+      "sha256": "39cb43ee49e3a1401355774e3dc1aafd9bdf95188998e65afc30f2afdc7517c8"
+    },
+    {
+      "number": 16,
+      "path": "正文/第016章_先放在这里.md",
+      "han": 2959,
+      "non_whitespace_including_punctuation": 3364,
+      "sha256": "951adc08f7a10cbaca38cfe4125bfc3721f01d6a869fe6c0dc17b62ae28e4930"
+    },
+    {
+      "number": 17,
+      "path": "正文/第017章_放在手边.md",
+      "han": 2403,
+      "non_whitespace_including_punctuation": 2750,
+      "sha256": "9fb3882310d0110de2f9e030ce399761dcdcced67b6749f30356e5d89a0677b9"
+    },
+    {
+      "number": 18,
+      "path": "正文/第018章_还没想好怎么讲.md",
+      "han": 1395,
+      "non_whitespace_including_punctuation": 1635,
+      "sha256": "d9e0cd794ba367e251eba0c6652ee68b43e349bd17e66d5229abef777947135a"
     }
   ],
   "errors": [],
