@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 68,
-  "chapter_count": 68,
-  "total_han": 202859,
-  "total_non_whitespace_including_punctuation": 236851,
+  "through_chapter": 69,
+  "chapter_count": 69,
+  "total_han": 206153,
+  "total_non_whitespace_including_punctuation": 240655,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -258,9 +258,9 @@
     {
       "number": 35,
       "path": "01_新文档/01_正文/第035章_没有让你.md",
-      "han": 2789,
-      "non_whitespace_including_punctuation": 3292,
-      "sha256": "d6e00a8846768e4a1cfba5e1eaedbd0dd3847d8c3abc3cf3fd1809fe2ae44a43"
+      "han": 2767,
+      "non_whitespace_including_punctuation": 3268,
+      "sha256": "8bdb0e9ffa6db14fe7608b1175644fb1ba637d471b611ab1a31bc9df8ad2de0e"
     },
     {
       "number": 36,
@@ -300,9 +300,9 @@
     {
       "number": 41,
       "path": "01_新文档/01_正文/第041章_不只是星期五.md",
-      "han": 2620,
-      "non_whitespace_including_punctuation": 3095,
-      "sha256": "34c94d1fca97e2089fc13847dbd07e49a478201d0d2c80bcb0e397f0c0e961c8"
+      "han": 2608,
+      "non_whitespace_including_punctuation": 3082,
+      "sha256": "2b71d3d992bc0cd1105106bdb857bf518e0baa2a0bb06703be3924f5f2f99843"
     },
     {
       "number": 42,
@@ -492,6 +492,13 @@
       "han": 4576,
       "non_whitespace_including_punctuation": 5289,
       "sha256": "5fa54d066d509002741b5c38dcec22e4f28a3af2b29e26c5a895162845ef6511"
+    },
+    {
+      "number": 69,
+      "path": "01_新文档/01_正文/第069章_先拿走六件.md",
+      "han": 3328,
+      "non_whitespace_including_punctuation": 3841,
+      "sha256": "f55c80a512d40dd1bbc4c01087ff14d1b8adc759508764ce4646fc04a2a18e33"
     }
   ],
   "errors": [],
