@@ -2,8 +2,8 @@
   "scope": "V3 current files only; 99_旧文档 excluded",
   "through_chapter": 55,
   "chapter_count": 55,
-  "total_han": 156614,
-  "total_non_whitespace_including_punctuation": 182758,
+  "total_han": 156585,
+  "total_non_whitespace_including_punctuation": 182726,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -104,9 +104,9 @@
     {
       "number": 13,
       "path": "01_新文档/01_正文/第013章_空出来的位置.md",
-      "han": 2623,
-      "non_whitespace_including_punctuation": 3001,
-      "sha256": "4b42c0810a5c0dcca2cc04f1cc2bf2464b48eef4ad003ecbf612065c233e30a2"
+      "han": 2600,
+      "non_whitespace_including_punctuation": 2976,
+      "sha256": "1fd6fc51afe7f3bf7e98122caff03cdff890b0c1b2ee54416bf147495fe0025c"
     },
     {
       "number": 14,
@@ -125,9 +125,9 @@
     {
       "number": 16,
       "path": "01_新文档/01_正文/第016章_先放在这里.md",
-      "han": 2031,
-      "non_whitespace_including_punctuation": 2331,
-      "sha256": "3e8d05632fef5fe260740695ac6c1934b193ee5e06379391dbabb6572986c873"
+      "han": 2025,
+      "non_whitespace_including_punctuation": 2324,
+      "sha256": "0c1211f14c29b20ab6b276da9cef9ffb16cf42aeff0751f002a67e8cf57f58b0"
     },
     {
       "number": 17,
