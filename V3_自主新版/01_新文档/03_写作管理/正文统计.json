@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 66,
-  "chapter_count": 66,
-  "total_han": 195072,
-  "total_non_whitespace_including_punctuation": 227825,
+  "through_chapter": 67,
+  "chapter_count": 67,
+  "total_han": 198283,
+  "total_non_whitespace_including_punctuation": 231562,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -478,6 +478,13 @@
       "han": 3780,
       "non_whitespace_including_punctuation": 4372,
       "sha256": "b9c16c5614abedd80823529c3a1263544d1b1a1c531253821e5d7a21236aa724"
+    },
+    {
+      "number": 67,
+      "path": "01_新文档/01_正文/第067章_做到二月底.md",
+      "han": 3211,
+      "non_whitespace_including_punctuation": 3737,
+      "sha256": "04393ba0912cad6d047e6342735f8e583be4d1808c4f5407b6920ad9cbfa467e"
     }
   ],
   "errors": [],
