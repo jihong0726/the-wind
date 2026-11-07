@@ -2,8 +2,8 @@
   "scope": "V3 current files only; 99_旧文档 excluded",
   "through_chapter": 48,
   "chapter_count": 48,
-  "total_han": 135247,
-  "total_non_whitespace_including_punctuation": 157710,
+  "total_han": 133150,
+  "total_non_whitespace_including_punctuation": 155313,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -27,23 +27,23 @@
     {
       "number": 2,
       "path": "01_新文档/01_正文/第002章_晚一点才看见.md",
-      "han": 6025,
-      "non_whitespace_including_punctuation": 6992,
-      "sha256": "97197e43b74d79f70789e275acca93dd06a5b9728b336e91ee9676cc45420a45"
+      "han": 4892,
+      "non_whitespace_including_punctuation": 5692,
+      "sha256": "fb258f4da9f94bcc060c274474ce23f9bf71b931f48d94fcb817180609855fdd"
     },
     {
       "number": 3,
       "path": "01_新文档/01_正文/第003章_谁量错了.md",
-      "han": 5555,
-      "non_whitespace_including_punctuation": 6443,
-      "sha256": "6024f6e0edb9a8c8f9b0512d608f0ef68228fb745f9533d98a42450b199583c6"
+      "han": 4974,
+      "non_whitespace_including_punctuation": 5772,
+      "sha256": "5467376ec9d3cbab9865b5d3a61419728c01472c3add1496e05a79c84a5eff21"
     },
     {
       "number": 4,
       "path": "01_新文档/01_正文/第004章_一顿没有做好的饭.md",
-      "han": 2511,
-      "non_whitespace_including_punctuation": 2874,
-      "sha256": "6dcab5fcf8d7d78712bfcdedc6c7123238cca7e337c28a69ad8d583b3648ddd4"
+      "han": 2128,
+      "non_whitespace_including_punctuation": 2448,
+      "sha256": "5e7325e0650c42d097589a7dfafcace01065951b050e44ebb5e209363cb1f65e"
     },
     {
       "number": 5,
