@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 35,
-  "chapter_count": 35,
-  "total_han": 101439,
-  "total_non_whitespace_including_punctuation": 118322,
+  "through_chapter": 36,
+  "chapter_count": 36,
+  "total_han": 104161,
+  "total_non_whitespace_including_punctuation": 121504,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -261,6 +261,13 @@
       "han": 2789,
       "non_whitespace_including_punctuation": 3292,
       "sha256": "d6e00a8846768e4a1cfba5e1eaedbd0dd3847d8c3abc3cf3fd1809fe2ae44a43"
+    },
+    {
+      "number": 36,
+      "path": "01_新文档/01_正文/第036章_午市还没过.md",
+      "han": 2722,
+      "non_whitespace_including_punctuation": 3182,
+      "sha256": "f2d9568051295d2feed253e64567624b780f7e1f14e61c7671d2a6b52a871b93"
     }
   ],
   "errors": [],
