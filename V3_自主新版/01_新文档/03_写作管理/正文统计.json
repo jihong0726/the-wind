@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": null,
+  "through_chapter": 34,
   "chapter_count": 34,
-  "total_han": 94863,
-  "total_non_whitespace_including_punctuation": 110593,
+  "total_han": 98650,
+  "total_non_whitespace_including_punctuation": 115030,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -34,9 +34,9 @@
     {
       "number": 3,
       "path": "01_新文档/01_正文/第003章_谁量错了.md",
-      "han": 5761,
-      "non_whitespace_including_punctuation": 6677,
-      "sha256": "45693c666752deb7a595bcb6530dce35337216c8181c516c3a344a95430fbf4f"
+      "han": 5555,
+      "non_whitespace_including_punctuation": 6443,
+      "sha256": "6024f6e0edb9a8c8f9b0512d608f0ef68228fb745f9533d98a42450b199583c6"
     },
     {
       "number": 4,
@@ -48,9 +48,9 @@
     {
       "number": 5,
       "path": "01_新文档/01_正文/第005章_四个月.md",
-      "han": 2603,
-      "non_whitespace_including_punctuation": 3050,
-      "sha256": "46edb984cb99c9eab0b1e31a5c2fcecb187d1b61e6490d9f9195280aa4c108a3"
+      "han": 2781,
+      "non_whitespace_including_punctuation": 3267,
+      "sha256": "9c73297f1b1194670d7dc6cc8d5653f8c0465d18973db6f3e721fa1b79ab16da"
     },
     {
       "number": 6,
@@ -69,9 +69,9 @@
     {
       "number": 8,
       "path": "01_新文档/01_正文/第008章_陈泊的计算器.md",
-      "han": 2989,
-      "non_whitespace_including_punctuation": 3477,
-      "sha256": "fcd383335e4b14a479fef8a6cf002ffa23ee2c798195fa3b6cefd8eb91c3b99d"
+      "han": 2437,
+      "non_whitespace_including_punctuation": 2822,
+      "sha256": "c5a7980466294918135b78fa116376d5084e85fba93ff4dde694e2475427aa78"
     },
     {
       "number": 9,
@@ -83,30 +83,30 @@
     {
       "number": 10,
       "path": "01_新文档/01_正文/第010章_明天再说.md",
-      "han": 3028,
-      "non_whitespace_including_punctuation": 3515,
-      "sha256": "e079edfbdb995647857568f60f7fe7608b6e95eda5b7a449ac3fb60004ed63ad"
+      "han": 2932,
+      "non_whitespace_including_punctuation": 3420,
+      "sha256": "76bbff945ef020d181e099fdbcfe232415701427b89a53f376c13787727c22e5"
     },
     {
       "number": 11,
       "path": "01_新文档/01_正文/第011章_先吃那块炸物.md",
-      "han": 2611,
-      "non_whitespace_including_punctuation": 3140,
-      "sha256": "f5489bddd3cb5a26ef32a13684c0d979fc2c0547313348b52dcc4863a3951952"
+      "han": 2644,
+      "non_whitespace_including_punctuation": 3173,
+      "sha256": "ec837b56bc9ec6dcb7afb792a6be22a1fb2d6de56a14751eaf88019885ac10e8"
     },
     {
       "number": 12,
       "path": "01_新文档/01_正文/第012章_下一次也算我.md",
-      "han": 3112,
-      "non_whitespace_including_punctuation": 3706,
-      "sha256": "bab30bc6583bc54d54f925a659620c596ef6b75ae50c5d1112a2fafec4c716b7"
+      "han": 3087,
+      "non_whitespace_including_punctuation": 3679,
+      "sha256": "1aa35fccfb17491ee3dc7180d59b9e5513a67faf71508f8fde33c1ec192b2c42"
     },
     {
       "number": 13,
       "path": "01_新文档/01_正文/第013章_空出来的位置.md",
-      "han": 2889,
-      "non_whitespace_including_punctuation": 3339,
-      "sha256": "9fe497fa58418c56a26b6ac5bd7bc2ff3aa76d462f79e52f0124691eec17a014"
+      "han": 2623,
+      "non_whitespace_including_punctuation": 3001,
+      "sha256": "4b42c0810a5c0dcca2cc04f1cc2bf2464b48eef4ad003ecbf612065c233e30a2"
     },
     {
       "number": 14,
@@ -118,135 +118,135 @@
     {
       "number": 15,
       "path": "01_新文档/01_正文/第015章_盘子是她的.md",
-      "han": 2132,
-      "non_whitespace_including_punctuation": 2487,
-      "sha256": "0bc7a2e236b6c56a6cc94c42d83032615c0c23edbd8aca35b0233bf4d8465c9e"
+      "han": 2337,
+      "non_whitespace_including_punctuation": 2734,
+      "sha256": "20f53e19786da89e9f03aafe3dea7e12a668ff97dd8b60aa2b016317f646e9ea"
     },
     {
       "number": 16,
       "path": "01_新文档/01_正文/第016章_先放在这里.md",
-      "han": 2518,
-      "non_whitespace_including_punctuation": 2878,
-      "sha256": "1d4b692d84c957a822c91816edf658969f53d31a403cd9318c9a7f503c20a565"
+      "han": 2031,
+      "non_whitespace_including_punctuation": 2331,
+      "sha256": "3e8d05632fef5fe260740695ac6c1934b193ee5e06379391dbabb6572986c873"
     },
     {
       "number": 17,
       "path": "01_新文档/01_正文/第017章_放在手边.md",
-      "han": 837,
-      "non_whitespace_including_punctuation": 961,
-      "sha256": "46165a4876ed0adab5a41d1b655c3ae147873ab0f11e7ab4b0ddcf1a16bdbd0c"
+      "han": 1258,
+      "non_whitespace_including_punctuation": 1472,
+      "sha256": "f3dd9280cc2c4517735c4e00b134e796ce98d36f62b43d55ce4321545033d5d2"
     },
     {
       "number": 18,
-      "path": "01_新文档/01_正文/第018章_还没想好怎么讲.md",
-      "han": 1395,
-      "non_whitespace_including_punctuation": 1635,
-      "sha256": "d9e0cd794ba367e251eba0c6652ee68b43e349bd17e66d5229abef777947135a"
+      "path": "01_新文档/01_正文/第018章_今天不在店里.md",
+      "han": 3461,
+      "non_whitespace_including_punctuation": 4056,
+      "sha256": "95e4fd71dd2c25dd351a7a6a957e76e70605365a32120be29b1898a2256307c0"
     },
     {
       "number": 19,
       "path": "01_新文档/01_正文/第019章_右边回来的声音.md",
-      "han": 2843,
-      "non_whitespace_including_punctuation": 3220,
-      "sha256": "d3c5191d99550cb7ec31a61c0985c31b3ae994d377f3c5a83d614ce5d69da1fb"
+      "han": 2827,
+      "non_whitespace_including_punctuation": 3203,
+      "sha256": "0f4367432f559b3cbf2d7b0e75bef8d99ecac68278c086b1e3e4501b46987e23"
     },
     {
       "number": 20,
-      "path": "01_新文档/01_正文/第020章_宽出去的一点.md",
-      "han": 2603,
-      "non_whitespace_including_punctuation": 2985,
-      "sha256": "e63a2d3f4e2556087b6128dff3fc1471fcde62dfd22738724e09d3286fc9d097"
+      "path": "01_新文档/01_正文/第020章_赢下来的那一场.md",
+      "han": 3069,
+      "non_whitespace_including_punctuation": 3546,
+      "sha256": "1ff4f7078e73c8011ec127b53f24c0918990d86b0a1aca4d4cae9648a2d42c92"
     },
     {
       "number": 21,
       "path": "01_新文档/01_正文/第021章_靠窗那一块.md",
-      "han": 2522,
-      "non_whitespace_including_punctuation": 2950,
-      "sha256": "16834648544ae92aa4eea3432caec8049e77d7c345502888cd0643b4b4653995"
+      "han": 2766,
+      "non_whitespace_including_punctuation": 3251,
+      "sha256": "f67d14ddfd52daaa3680f190c5c60c86c95decc34b94c1d9f92e8e684254baa4"
     },
     {
       "number": 22,
       "path": "01_新文档/01_正文/第022章_不做杯子了.md",
-      "han": 2676,
-      "non_whitespace_including_punctuation": 3194,
-      "sha256": "9fd2a12f2b92254d8c632c9d097abcc31884546ab3a26aeaefa0a442114a65a8"
+      "han": 2550,
+      "non_whitespace_including_punctuation": 3041,
+      "sha256": "5bafcac679019f95aa8331b3077a4d1674710c3bef84c42feb04b90ec7db2a09"
     },
     {
       "number": 23,
       "path": "01_新文档/01_正文/第023章_篮子还在.md",
-      "han": 2602,
-      "non_whitespace_including_punctuation": 3008,
-      "sha256": "88d81081143a21d2979fe2003b0e529b32193a6f0d44ff53dd78191da5ac31ac"
+      "han": 2743,
+      "non_whitespace_including_punctuation": 3168,
+      "sha256": "9619238dbddd48e196dff4e94270045f425a5c7cab8fb06b3c7edfff4d5fe8e6"
     },
     {
       "number": 24,
       "path": "01_新文档/01_正文/第024章_先听后面.md",
-      "han": 2344,
-      "non_whitespace_including_punctuation": 2719,
-      "sha256": "b40dea5cce8c0195a5de05b1a654dad0cdda5553d7c1e0b2935233bd46416401"
+      "han": 2692,
+      "non_whitespace_including_punctuation": 3109,
+      "sha256": "c7060bb0fe17d3b79b2d78e99c500c5f16640f69fc97f8751f029db1ba0f7188"
     },
     {
       "number": 25,
       "path": "01_新文档/01_正文/第025章_要不要一起吃饭.md",
-      "han": 2301,
-      "non_whitespace_including_punctuation": 2682,
-      "sha256": "6f0764aa51af812aaf33a1894083f4c64dbaaf66c4b632aa95ab5d333d9c047d"
+      "han": 2351,
+      "non_whitespace_including_punctuation": 2747,
+      "sha256": "a19a17b04830896a3d0ce6ab0f101023ee6c605b30395109c12aaee8ad5ab7e4"
     },
     {
       "number": 26,
       "path": "01_新文档/01_正文/第026章_第一次听见.md",
-      "han": 2449,
-      "non_whitespace_including_punctuation": 2939,
-      "sha256": "ae48ace20313dc260ba9224e701ddd759907c016130597abf4cf860bfabacd14"
+      "han": 2438,
+      "non_whitespace_including_punctuation": 2925,
+      "sha256": "96538e1550a7a8b0fcad6814b29ef6839d83939807a117bab1f2309452aadf5d"
     },
     {
       "number": 27,
       "path": "01_新文档/01_正文/第027章_两双拖鞋.md",
-      "han": 2647,
-      "non_whitespace_including_punctuation": 3103,
-      "sha256": "5a498d9c449b7febb094168265a2596b3c7696842be8b11f14eb921d9cf9f3dd"
+      "han": 2925,
+      "non_whitespace_including_punctuation": 3424,
+      "sha256": "5ba88e71a0220a94af9c249f83401a04968f071b9714de7159cf70902ebb2adf"
     },
     {
       "number": 28,
       "path": "01_新文档/01_正文/第028章_先把星期四留下.md",
-      "han": 2353,
-      "non_whitespace_including_punctuation": 2807,
-      "sha256": "dbced65d3ab235cfbdda4c22674b4add1bb1de5341a1187115ac967c2c09b339"
+      "han": 2293,
+      "non_whitespace_including_punctuation": 2738,
+      "sha256": "2b48dd7d35b777cf1fd180d50b0b253340491e374d612174da8f01a8bb8a292f"
     },
     {
       "number": 29,
-      "path": "01_新文档/01_正文/第029章_这一面朝外.md",
-      "han": 2118,
-      "non_whitespace_including_punctuation": 2421,
-      "sha256": "0fb25f7136d9f18283e883d5fdaed8a9832d9ab8b263b35b52a03db0ddd0ff95"
+      "path": "01_新文档/01_正文/第029章_两个人往前走.md",
+      "han": 2686,
+      "non_whitespace_including_punctuation": 3091,
+      "sha256": "c29bf463b1400f9f237734be7dc16d2e852366498ccbdd5801e06d05d387a51b"
     },
     {
       "number": 30,
       "path": "01_新文档/01_正文/第030章_酱另外放.md",
-      "han": 3274,
-      "non_whitespace_including_punctuation": 3979,
-      "sha256": "161a7e4ef127a8b9f721fcfc70d59c2d41f04494f7c48982c0836332929fbb1e"
+      "han": 3031,
+      "non_whitespace_including_punctuation": 3711,
+      "sha256": "04916f8a6aeae341695c4e4724c5862eba663e923aab217b04ac7285ec36876f"
     },
     {
       "number": 31,
-      "path": "01_新文档/01_正文/第031章_鱼先不要说话.md",
-      "han": 2024,
-      "non_whitespace_including_punctuation": 2361,
-      "sha256": "98caba7f3fa1513f808a4006bae564af76c64beb9e6e48c587ded4a2878d82d3"
+      "path": "01_新文档/01_正文/第031章_名字下面的两句.md",
+      "han": 2396,
+      "non_whitespace_including_punctuation": 2725,
+      "sha256": "093ba56be071a0cd55ee608c8b2e3dadc6a04370cce1052963d664692a3b3a0f"
     },
     {
       "number": 32,
       "path": "01_新文档/01_正文/第032章_把包放进去.md",
-      "han": 2633,
-      "non_whitespace_including_punctuation": 3019,
-      "sha256": "554747d898a87de7ba28a8c96f088367bbc8b0bf727ee24550c6282d039dd5f7"
+      "han": 2658,
+      "non_whitespace_including_punctuation": 3062,
+      "sha256": "0871424c063fec46f9b90e3244b0311c71e3a974735b85e7a9d3bfbafa7aff8f"
     },
     {
       "number": 33,
       "path": "01_新文档/01_正文/第033章_烧鸡的另一面.md",
-      "han": 2395,
-      "non_whitespace_including_punctuation": 2769,
-      "sha256": "0c9f5edbd17ff55bf4401ab449c1c8a07af90548f942c3a16e65ffda62489548"
+      "han": 2875,
+      "non_whitespace_including_punctuation": 3319,
+      "sha256": "c1a1b4ffac352a28d7c500d76ecb3858f8dcce7a7168e0262a289ad1e6258ce7"
     },
     {
       "number": 34,
