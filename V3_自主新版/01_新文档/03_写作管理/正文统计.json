@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 61,
-  "chapter_count": 61,
-  "total_han": 178930,
-  "total_non_whitespace_including_punctuation": 208995,
+  "through_chapter": 62,
+  "chapter_count": 62,
+  "total_han": 183076,
+  "total_non_whitespace_including_punctuation": 213904,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -443,6 +443,13 @@
       "han": 4308,
       "non_whitespace_including_punctuation": 5034,
       "sha256": "b9422ba86655f6491b727b2f45fb592991a840b84a646de0ed8befedecc15d28"
+    },
+    {
+      "number": 62,
+      "path": "01_新文档/01_正文/第062章_还有一张.md",
+      "han": 4146,
+      "non_whitespace_including_punctuation": 4909,
+      "sha256": "fdc25ea023837d341f38eb6cb3e35393fa46fc2df3f8d0d33683ee568f0bae32"
     }
   ],
   "errors": [],
