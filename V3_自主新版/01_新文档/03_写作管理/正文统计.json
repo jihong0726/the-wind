@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 55,
-  "chapter_count": 55,
-  "total_han": 156585,
-  "total_non_whitespace_including_punctuation": 182726,
+  "through_chapter": 56,
+  "chapter_count": 56,
+  "total_han": 159010,
+  "total_non_whitespace_including_punctuation": 185578,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -401,6 +401,13 @@
       "han": 4080,
       "non_whitespace_including_punctuation": 4841,
       "sha256": "a0a71fa1075541a4dd23a4c6859cbabbd08bd849ee013c4a21a771280f9c4fd6"
+    },
+    {
+      "number": 56,
+      "path": "01_新文档/01_正文/第056章_自己的那一间.md",
+      "han": 2425,
+      "non_whitespace_including_punctuation": 2852,
+      "sha256": "264b3a8e3671d977efb8c1d9663ba174ed20066382c221c9d94a15ac13e8ea45"
     }
   ],
   "errors": [],
