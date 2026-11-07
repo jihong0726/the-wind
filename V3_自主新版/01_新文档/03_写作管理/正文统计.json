@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 39,
-  "chapter_count": 39,
-  "total_han": 111948,
-  "total_non_whitespace_including_punctuation": 130542,
+  "through_chapter": 40,
+  "chapter_count": 40,
+  "total_han": 114949,
+  "total_non_whitespace_including_punctuation": 133980,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -289,6 +289,13 @@
       "han": 2016,
       "non_whitespace_including_punctuation": 2373,
       "sha256": "4c37fdb602956a8dd4b789b35de0b3dbde2ca6f13b9f799a24f6af1bbe4f22e4"
+    },
+    {
+      "number": 40,
+      "path": "01_新文档/01_正文/第040章_唱到最亮的地方.md",
+      "han": 3001,
+      "non_whitespace_including_punctuation": 3438,
+      "sha256": "56a644d24f7877e3c023d603400b08e4762abad8a3b2891120aebf780d60e53d"
     }
   ],
   "errors": [],
