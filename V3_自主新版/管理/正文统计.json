@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 10,
-  "chapter_count": 10,
-  "total_han": 37964,
-  "total_non_whitespace_including_punctuation": 44079,
+  "through_chapter": 14,
+  "chapter_count": 14,
+  "total_han": 49685,
+  "total_non_whitespace_including_punctuation": 57830,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -86,6 +86,34 @@
       "han": 3028,
       "non_whitespace_including_punctuation": 3515,
       "sha256": "e079edfbdb995647857568f60f7fe7608b6e95eda5b7a449ac3fb60004ed63ad"
+    },
+    {
+      "number": 11,
+      "path": "正文/第011章_先吃那块炸物.md",
+      "han": 2637,
+      "non_whitespace_including_punctuation": 3170,
+      "sha256": "36b98288ad23b8baea3db96f195a3fd23dcf920a1f8958a5fa7723f2c31c6909"
+    },
+    {
+      "number": 12,
+      "path": "正文/第012章_下一次也算我.md",
+      "han": 3112,
+      "non_whitespace_including_punctuation": 3706,
+      "sha256": "bab30bc6583bc54d54f925a659620c596ef6b75ae50c5d1112a2fafec4c716b7"
+    },
+    {
+      "number": 13,
+      "path": "正文/第013章_空出来的位置.md",
+      "han": 2889,
+      "non_whitespace_including_punctuation": 3339,
+      "sha256": "9fe497fa58418c56a26b6ac5bd7bc2ff3aa76d462f79e52f0124691eec17a014"
+    },
+    {
+      "number": 14,
+      "path": "正文/第014章_最后一遍.md",
+      "han": 3083,
+      "non_whitespace_including_punctuation": 3536,
+      "sha256": "4bb4db2dc40047c5061b680056d16583c898d1b1072f05e5355ee49ec822f503"
     }
   ],
   "errors": [],
