@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 48,
-  "chapter_count": 48,
-  "total_han": 133150,
-  "total_non_whitespace_including_punctuation": 155313,
+  "through_chapter": 49,
+  "chapter_count": 49,
+  "total_han": 136500,
+  "total_non_whitespace_including_punctuation": 159148,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -352,6 +352,13 @@
       "han": 2948,
       "non_whitespace_including_punctuation": 3467,
       "sha256": "c55865949eb82c27c1a4677e4211b10d3667cbd54617ef4c1bf3db745f3d337a"
+    },
+    {
+      "number": 49,
+      "path": "01_新文档/01_正文/第049章_晚上的教室.md",
+      "han": 3350,
+      "non_whitespace_including_punctuation": 3835,
+      "sha256": "d566a40399d5ad7537b0bf75a4f9ac84c5082a8fda550a5631866b28a15725c5"
     }
   ],
   "errors": [],
