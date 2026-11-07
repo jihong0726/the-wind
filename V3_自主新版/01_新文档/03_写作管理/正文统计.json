@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 47,
-  "chapter_count": 47,
-  "total_han": 132299,
-  "total_non_whitespace_including_punctuation": 154243,
+  "through_chapter": 48,
+  "chapter_count": 48,
+  "total_han": 135247,
+  "total_non_whitespace_including_punctuation": 157710,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -345,6 +345,13 @@
       "han": 3392,
       "non_whitespace_including_punctuation": 3897,
       "sha256": "6b9899b0cd859c05a67f25e3392372ec239c34fee4dd42f541b9e4b3fbae6d32"
+    },
+    {
+      "number": 48,
+      "path": "01_新文档/01_正文/第048章_把镜头转回来.md",
+      "han": 2948,
+      "non_whitespace_including_punctuation": 3467,
+      "sha256": "c55865949eb82c27c1a4677e4211b10d3667cbd54617ef4c1bf3db745f3d337a"
     }
   ],
   "errors": [],
