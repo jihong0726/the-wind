@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 49,
-  "chapter_count": 49,
-  "total_han": 136011,
-  "total_non_whitespace_including_punctuation": 158583,
+  "through_chapter": 50,
+  "chapter_count": 50,
+  "total_han": 139554,
+  "total_non_whitespace_including_punctuation": 162662,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -359,6 +359,13 @@
       "han": 3350,
       "non_whitespace_including_punctuation": 3835,
       "sha256": "d566a40399d5ad7537b0bf75a4f9ac84c5082a8fda550a5631866b28a15725c5"
+    },
+    {
+      "number": 50,
+      "path": "01_新文档/01_正文/第050章_借过一下.md",
+      "han": 3543,
+      "non_whitespace_including_punctuation": 4079,
+      "sha256": "3cd55b5819ed0b1680d5bc31697889089ec29893d2036c14746adb2bcddc0351"
     }
   ],
   "errors": [],
