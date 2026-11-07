@@ -1,0 +1,983 @@
+{
+  "schema_version": 1,
+  "purpose": "2026年11月7日按作者要求区分V1旧版本、V2近期共同讨论版本、V3助手自主新版；只改导航和新增索引，不移动、删除或改写正文与设定。",
+  "baseline_commit": "1c006457d8085c3a535bf3268330aed4fd8bb7f3",
+  "baseline_tree": "826f20a765d666e9c0b2fbd7ed6a86750660d927",
+  "baseline_file_count": 121,
+  "version_entries": {
+    "V1": "V1_旧版本/README.md",
+    "V2": "V2_共同讨论版/README.md",
+    "V3": "V3_自主新版/README.md"
+  },
+  "naming_note": "旧文件内部的V2、V3为当时编号，保留原文，不等同本次目录分类。",
+  "files": [
+    {
+      "path": "00_全局配置档（每次写稿都读）/00_state.json",
+      "version": "V1",
+      "blob_sha": "61a1aaaeda89e2574d8d3cf7a6279c083ecc11fd",
+      "size_bytes": 16989,
+      "preserved_path": "00_全局配置档（每次写稿都读）/00_state.json",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "00_全局配置档（每次写稿都读）/README.md",
+      "version": "V1",
+      "blob_sha": "880a67971d9d09c7232946011838a43c0dc54501",
+      "size_bytes": 565,
+      "preserved_path": "00_全局配置档（每次写稿都读）/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "02_正文/02_正文_合集_第001-054章.md",
+      "version": "V1",
+      "blob_sha": "ad7b980a2d62f726a6740856e512aa63340f8392",
+      "size_bytes": 603967,
+      "preserved_path": "02_正文/02_正文_合集_第001-054章.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "02_正文/README.md",
+      "version": "V1",
+      "blob_sha": "244c55f7310a1d69e7b2b512500e15f766c5f9cb",
+      "size_bytes": 701,
+      "preserved_path": "02_正文/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "02_正文/第001章_除湿机满水的那一夜.md",
+      "version": "V1",
+      "blob_sha": "98fcdb35ce742426293b0345ace0e4c7da161487",
+      "size_bytes": 13599,
+      "preserved_path": "02_正文/第001章_除湿机满水的那一夜.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/13_故事架构决策.md",
+      "version": "V2",
+      "blob_sha": "83a53b5343522dc8fee28f60f840e74dfc1f9079",
+      "size_bytes": 11482,
+      "preserved_path": "04_设定分析/13_故事架构决策.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/26_完整角色基础设定审核.md",
+      "version": "V2",
+      "blob_sha": "4bc508d29d93e59e86b82ce20dbf67bdc21b0ee2",
+      "size_bytes": 79646,
+      "preserved_path": "04_设定分析/26_完整角色基础设定审核.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/28_树洞随机复配与识别差.md",
+      "version": "V2",
+      "blob_sha": "606619c4d3b71c1ad7aa8ec44b096899984bb1f4",
+      "size_bytes": 5331,
+      "preserved_path": "04_设定分析/28_树洞随机复配与识别差.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/29_基础与故事集中决策清单.md",
+      "version": "V2",
+      "blob_sha": "40b77989a51a9e8a7196824126137f152495efba",
+      "size_bytes": 9203,
+      "preserved_path": "04_设定分析/29_基础与故事集中决策清单.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/30_作者答复整合与当前审阅稿.md",
+      "version": "V2",
+      "blob_sha": "b5e212471f3c97cf46003c394700507e53d26ccb",
+      "size_bytes": 35236,
+      "preserved_path": "04_设定分析/30_作者答复整合与当前审阅稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/31_家庭旧事与遗物证据.md",
+      "version": "V2",
+      "blob_sha": "ba5bfb71c0b736c0caa70f82e8f4b0e0621c58ba",
+      "size_bytes": 11256,
+      "preserved_path": "04_设定分析/31_家庭旧事与遗物证据.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/35_全故事时间线与因果依赖.md",
+      "version": "V2",
+      "blob_sha": "8ec1a29f9b8c17c04449773c5e9b52d9c32cfa3f",
+      "size_bytes": 28752,
+      "preserved_path": "04_设定分析/35_全故事时间线与因果依赖.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/36_事件时间线与逐章更新.md",
+      "version": "V2",
+      "blob_sha": "d1a1105b90240b3e0d86cfa62eb53aa0a7341032",
+      "size_bytes": 37602,
+      "preserved_path": "04_设定分析/36_事件时间线与逐章更新.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/37_第一卷工作纲.md",
+      "version": "V2",
+      "blob_sha": "0ffab736f689caa25b02b6eef21cb1464a2505e9",
+      "size_bytes": 30922,
+      "preserved_path": "04_设定分析/37_第一卷工作纲.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/39_第一卷原规划对应与编辑改动.md",
+      "version": "V2",
+      "blob_sha": "16be47e88b9d924f420ea452eb8dab12d34dae28",
+      "size_bytes": 15679,
+      "preserved_path": "04_设定分析/39_第一卷原规划对应与编辑改动.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/40_未来100章故事走向_017至116.md",
+      "version": "V2",
+      "blob_sha": "3df5bc7114dff45513fae5793b27e0e85f0bb54f",
+      "size_bytes": 73000,
+      "preserved_path": "04_设定分析/40_未来100章故事走向_017至116.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/41_逐人故事时间线_待审稿.md",
+      "version": "V2",
+      "blob_sha": "aac9645379b1ba227961e51cbcda4d69959eb507",
+      "size_bytes": 52895,
+      "preserved_path": "04_设定分析/41_逐人故事时间线_待审稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/42_重要转折发展选项_待审稿.md",
+      "version": "V2",
+      "blob_sha": "30ba290fd8fba72085f6adc8ace91032fdbed2c8",
+      "size_bytes": 24164,
+      "preserved_path": "04_设定分析/42_重要转折发展选项_待审稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/43_第003至008章内容提案_待审.md",
+      "version": "V2",
+      "blob_sha": "c4ebe5b60021bf937a8e3c6920025a8795d92588",
+      "size_bytes": 24806,
+      "preserved_path": "04_设定分析/43_第003至008章内容提案_待审.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/44_第009至016章内容提案_待审.md",
+      "version": "V2",
+      "blob_sha": "acd9e7e87f6d3a419f7878f2feb1662aa5cff16f",
+      "size_bytes": 30322,
+      "preserved_path": "04_设定分析/44_第009至016章内容提案_待审.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/45_第017至116章依赖与连续性复核_待审.md",
+      "version": "V2",
+      "blob_sha": "3f3c5d00b5b53626f20dd206fe6f3f6770dbee6b",
+      "size_bytes": 17078,
+      "preserved_path": "04_设定分析/45_第017至116章依赖与连续性复核_待审.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/README.md",
+      "version": "V2",
+      "blob_sha": "289fe993d899b1c4bb0266446fab5513a94752c2",
+      "size_bytes": 5008,
+      "preserved_path": "04_设定分析/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/09_待确认事项.md",
+      "version": "V2",
+      "blob_sha": "219eb2544868c114922c8d67c7e042de62f34150",
+      "size_bytes": 6501,
+      "preserved_path": "04_设定分析/历史方案/09_待确认事项.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/14_整体架构提案与一次确认.md",
+      "version": "V2",
+      "blob_sha": "4ba0bb123dea2aaa8ee2df9c4a311a8b611b292c",
+      "size_bytes": 17226,
+      "preserved_path": "04_设定分析/历史方案/14_整体架构提案与一次确认.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/15_作者选择与粉丝压力因果架构.md",
+      "version": "V2",
+      "blob_sha": "e6cef7eb7c668dfbd6050fb33065837b67ef10e7",
+      "size_bytes": 14429,
+      "preserved_path": "04_设定分析/历史方案/15_作者选择与粉丝压力因果架构.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/16_六阶段具体因果框架.md",
+      "version": "V2",
+      "blob_sha": "95f89cbc9ad01326b8de4da2c5918be0a8d5eb22",
+      "size_bytes": 15444,
+      "preserved_path": "04_设定分析/历史方案/16_六阶段具体因果框架.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/17_完整故事架构审阅稿.md",
+      "version": "V2",
+      "blob_sha": "246c85ea31773cdc18005f86304dfe08ad6446c9",
+      "size_bytes": 33285,
+      "preserved_path": "04_设定分析/历史方案/17_完整故事架构审阅稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/18_时间线与现实可行边界.md",
+      "version": "V2",
+      "blob_sha": "41e3c8af1ca194dfdb48c58ed977f263b47d04c9",
+      "size_bytes": 35049,
+      "preserved_path": "04_设定分析/历史方案/18_时间线与现实可行边界.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/19_人物关系与伏笔回收.md",
+      "version": "V2",
+      "blob_sha": "37af4b939542ed101e70106e0dc94ea3d50fbb3d",
+      "size_bytes": 65062,
+      "preserved_path": "04_设定分析/历史方案/19_人物关系与伏笔回收.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/20_现有正文衔接与重排方案.md",
+      "version": "V2",
+      "blob_sha": "04c57b77bcde48ed7802f16ec4cde64310317453",
+      "size_bytes": 44695,
+      "preserved_path": "04_设定分析/历史方案/20_现有正文衔接与重排方案.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/21_世界规则与实施工作方案.md",
+      "version": "V2",
+      "blob_sha": "041ca5900384f21df526c2ebff17da07aac6f9db",
+      "size_bytes": 13429,
+      "preserved_path": "04_设定分析/历史方案/21_世界规则与实施工作方案.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/22_编辑判断与推进路线.md",
+      "version": "V2",
+      "blob_sha": "32283ab1d2e84c02fe7c02e9172d968ffef42dbd",
+      "size_bytes": 12623,
+      "preserved_path": "04_设定分析/历史方案/22_编辑判断与推进路线.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/23_关键场景蓝图.md",
+      "version": "V2",
+      "blob_sha": "2bbc4daf582fecbf586884150d89cdd133835fb1",
+      "size_bytes": 16734,
+      "preserved_path": "04_设定分析/历史方案/23_关键场景蓝图.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/27_Faisal旧事与卷章说明.md",
+      "version": "V2",
+      "blob_sha": "70dd46d1be3aa4ae2aedd30fab4235dfb585551a",
+      "size_bytes": 6228,
+      "preserved_path": "04_设定分析/历史方案/27_Faisal旧事与卷章说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/历史方案/README.md",
+      "version": "V2",
+      "blob_sha": "5359d4910257b802f025b0a87121e4aaa233ec4a",
+      "size_bytes": 1374,
+      "preserved_path": "04_设定分析/历史方案/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/整理记录.md",
+      "version": "V2",
+      "blob_sha": "cb9efdf29e300c74f4d98d0d7f2c6d28179c02be",
+      "size_bytes": 11499,
+      "preserved_path": "04_设定分析/整理记录.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/README.md",
+      "version": "V2",
+      "blob_sha": "81ba030469813b19e10598ed09a65c484b1f0610",
+      "size_bytes": 5331,
+      "preserved_path": "04_设定分析/新版初稿/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第001章_审阅说明.md",
+      "version": "V2",
+      "blob_sha": "d894c1c5afd48c64bd581e596d30b913a2e39c13",
+      "size_bytes": 5095,
+      "preserved_path": "04_设定分析/新版初稿/第001章_审阅说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第001章_除湿机满水的那一夜_初稿.md",
+      "version": "V2",
+      "blob_sha": "83aef1aa4a960ec5097d309e131a4b4d3780f4fb",
+      "size_bytes": 8852,
+      "preserved_path": "04_设定分析/新版初稿/第001章_除湿机满水的那一夜_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第001至002章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "bca820de9bdc4c17b356de026fe5f5f80619a78b",
+      "size_bytes": 4512,
+      "preserved_path": "04_设定分析/新版初稿/第001至002章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第002章_镜头转过来以前_初稿.md",
+      "version": "V2",
+      "blob_sha": "bc3687531a9ec2f8e6fb01ed53740312f28a0f27",
+      "size_bytes": 6495,
+      "preserved_path": "04_设定分析/新版初稿/第002章_镜头转过来以前_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第003章_送完这一单_初稿.md",
+      "version": "V2",
+      "blob_sha": "6b15dbd0a4a47ed2dfc97282935a4e58e7c334d4",
+      "size_bytes": 8461,
+      "preserved_path": "04_设定分析/新版初稿/第003章_送完这一单_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第003至004章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "d765110aa5b9abc0321a71f973830bfa3bfabc08",
+      "size_bytes": 2929,
+      "preserved_path": "04_设定分析/新版初稿/第003至004章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第004章_半杯凉水_初稿.md",
+      "version": "V2",
+      "blob_sha": "d608a7459b16781aacf057339b1f77fdf6c786c1",
+      "size_bytes": 8586,
+      "preserved_path": "04_设定分析/新版初稿/第004章_半杯凉水_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第005章_先看谁付钱_初稿.md",
+      "version": "V2",
+      "blob_sha": "979aa11326cef6922058830bae77c10091c97637",
+      "size_bytes": 8148,
+      "preserved_path": "04_设定分析/新版初稿/第005章_先看谁付钱_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第005至006章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "3e380c7ae5865d6dd6e18e0dbe7d9ae81259d0d7",
+      "size_bytes": 2613,
+      "preserved_path": "04_设定分析/新版初稿/第005至006章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第006章_第二首歌_初稿.md",
+      "version": "V2",
+      "blob_sha": "28dcc0df344f559baace014aa3778856232c0feb",
+      "size_bytes": 8482,
+      "preserved_path": "04_设定分析/新版初稿/第006章_第二首歌_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第007章_留着错的那一份_初稿.md",
+      "version": "V2",
+      "blob_sha": "30ea1caa7835ffcd221433250004a7432f48cd16",
+      "size_bytes": 8099,
+      "preserved_path": "04_设定分析/新版初稿/第007章_留着错的那一份_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第007至008章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "0b4289caf05cd251ca257c285411828b430347a7",
+      "size_bytes": 2856,
+      "preserved_path": "04_设定分析/新版初稿/第007至008章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第008章_鸭子的嘴_初稿.md",
+      "version": "V2",
+      "blob_sha": "309d1645c196681abe6372c0c4e40ab5d635033a",
+      "size_bytes": 8356,
+      "preserved_path": "04_设定分析/新版初稿/第008章_鸭子的嘴_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第009章_先把袋子放下_初稿.md",
+      "version": "V2",
+      "blob_sha": "44432b301ca35e0d75420a8105e2a370f34f66cc",
+      "size_bytes": 9668,
+      "preserved_path": "04_设定分析/新版初稿/第009章_先把袋子放下_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第009至010章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "ab55d00f1d7689a859c5561394d988a2923803ab",
+      "size_bytes": 3287,
+      "preserved_path": "04_设定分析/新版初稿/第009至010章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第010章_先听这一遍_初稿.md",
+      "version": "V2",
+      "blob_sha": "adcc5198c4d4e77fd793be74ea4e418a65aa86bc",
+      "size_bytes": 8688,
+      "preserved_path": "04_设定分析/新版初稿/第010章_先听这一遍_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第011章_空着的那一列_初稿.md",
+      "version": "V2",
+      "blob_sha": "e71c780a2cc59a69063efb82c87b9f1051b1bf8a",
+      "size_bytes": 8613,
+      "preserved_path": "04_设定分析/新版初稿/第011章_空着的那一列_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第011至012章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "6e38d15c1d0e0545ae0f5e7af83c57137bb3fc2e",
+      "size_bytes": 3348,
+      "preserved_path": "04_设定分析/新版初稿/第011至012章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第012章_今天换你说_初稿.md",
+      "version": "V2",
+      "blob_sha": "64035f143a87165ed8319b4105204cbed4cf5505",
+      "size_bytes": 8903,
+      "preserved_path": "04_设定分析/新版初稿/第012章_今天换你说_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第013章_先关掉这一轮_初稿.md",
+      "version": "V2",
+      "blob_sha": "0d71e2a000253d9f0da07ebd4b6f47fe2807457f",
+      "size_bytes": 8605,
+      "preserved_path": "04_设定分析/新版初稿/第013章_先关掉这一轮_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第013至014章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "175279cb73fdc610655c689931c4b6f2b4d8233c",
+      "size_bytes": 2576,
+      "preserved_path": "04_设定分析/新版初稿/第013至014章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第014章_从这里开始_初稿.md",
+      "version": "V2",
+      "blob_sha": "fd620fd017734e1a84d01541b979ccc1f6e9515b",
+      "size_bytes": 8464,
+      "preserved_path": "04_设定分析/新版初稿/第014章_从这里开始_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第015章_这一小段_初稿.md",
+      "version": "V2",
+      "blob_sha": "3eac196a60a14f218309be056bfbaf6d8c6882d5",
+      "size_bytes": 8962,
+      "preserved_path": "04_设定分析/新版初稿/第015章_这一小段_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第015至016章_联审说明.md",
+      "version": "V2",
+      "blob_sha": "a0d73046f1f2eff6e50be8847ab3dfa755806836",
+      "size_bytes": 3107,
+      "preserved_path": "04_设定分析/新版初稿/第015至016章_联审说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第016章_留在这里_初稿.md",
+      "version": "V2",
+      "blob_sha": "6f775e5c0033cb0cd08792d2bc0b86b1a73bb216",
+      "size_bytes": 9181,
+      "preserved_path": "04_设定分析/新版初稿/第016章_留在这里_初稿.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版初稿/第一卷_完稿与审阅说明.md",
+      "version": "V2",
+      "blob_sha": "0e5f946252d3129d215f886da87ef6be3fd58d07",
+      "size_bytes": 3372,
+      "preserved_path": "04_设定分析/新版初稿/第一卷_完稿与审阅说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版续写_20261107/README.md",
+      "version": "V2",
+      "blob_sha": "a6212447fbe25a5c916302716b1a5c253380e204",
+      "size_bytes": 6300,
+      "preserved_path": "04_设定分析/新版续写_20261107/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版续写_20261107/第002章_镜头转过来以前.md",
+      "version": "V2",
+      "blob_sha": "b182813578319d727b2528a60efbe670fe736c30",
+      "size_bytes": 18227,
+      "preserved_path": "04_设定分析/新版续写_20261107/第002章_镜头转过来以前.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版续写_20261107/第003章_睡醒以后.md",
+      "version": "V2",
+      "blob_sha": "dda16ec008b202bd3bceb2a07e8bcbd2223499c1",
+      "size_bytes": 19507,
+      "preserved_path": "04_设定分析/新版续写_20261107/第003章_睡醒以后.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/新版续写_20261107/第004章_没有下一项.md",
+      "version": "V2",
+      "blob_sha": "820251a3ae2221fb4389fe1f4f98a297dffda771",
+      "size_bytes": 18680,
+      "preserved_path": "04_设定分析/新版续写_20261107/第004章_没有下一项.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/02_地理与生活空间.md",
+      "version": "V2",
+      "blob_sha": "ad7ae8389776e1f4fe19e7bf1568b7283d091ec1",
+      "size_bytes": 13048,
+      "preserved_path": "04_设定分析/资料依据/02_地理与生活空间.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/03_货币与时间.md",
+      "version": "V2",
+      "blob_sha": "f213c458ca4abec8ef13680a631934f1b41e6e63",
+      "size_bytes": 15003,
+      "preserved_path": "04_设定分析/资料依据/03_货币与时间.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/04_人物关系与语言.md",
+      "version": "V2",
+      "blob_sha": "b28d226bf470eed5d4300f6f191403584d1b50f9",
+      "size_bytes": 23471,
+      "preserved_path": "04_设定分析/资料依据/04_人物关系与语言.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/05_职业制度与科技.md",
+      "version": "V2",
+      "blob_sha": "1c74614d42a907ad19a688eafbbecccadb1cb750",
+      "size_bytes": 22978,
+      "preserved_path": "04_设定分析/资料依据/05_职业制度与科技.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/06_关键物件与术语.md",
+      "version": "V2",
+      "blob_sha": "948a946476b967935da2822877fabeb90c7963f0",
+      "size_bytes": 7689,
+      "preserved_path": "04_设定分析/资料依据/06_关键物件与术语.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/07_参考来源及SP4RK证据.md",
+      "version": "V2",
+      "blob_sha": "115795fa46c458bc35eb19b1558a3feeb7ce26ea",
+      "size_bytes": 11125,
+      "preserved_path": "04_设定分析/资料依据/07_参考来源及SP4RK证据.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/08_嘉弘27章地点台账.md",
+      "version": "V2",
+      "blob_sha": "3ed15105d8e99c9e3592ba2c1144817ecc7433cb",
+      "size_bytes": 11397,
+      "preserved_path": "04_设定分析/资料依据/08_嘉弘27章地点台账.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/10_基础完整性清单.md",
+      "version": "V2",
+      "blob_sha": "84c029a950c4943784680dbcfa0c05a301542c2e",
+      "size_bytes": 44234,
+      "preserved_path": "04_设定分析/资料依据/10_基础完整性清单.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/11_设定依赖与验证规则.md",
+      "version": "V2",
+      "blob_sha": "62dbb642816bd6ff5dd6da3618eece3a9691d10a",
+      "size_bytes": 20105,
+      "preserved_path": "04_设定分析/资料依据/11_设定依赖与验证规则.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/12_原始资料与版本覆盖.md",
+      "version": "V2",
+      "blob_sha": "1dacdbb6ecfab1078986d34abab1f2fd66b78423",
+      "size_bytes": 13277,
+      "preserved_path": "04_设定分析/资料依据/12_原始资料与版本覆盖.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/24_现实支点核验与采用建议.md",
+      "version": "V2",
+      "blob_sha": "7d8f9d1cf3a05964c17e48507a9837940efc2ac4",
+      "size_bytes": 9544,
+      "preserved_path": "04_设定分析/资料依据/24_现实支点核验与采用建议.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/32_现实绯闻与现代架空参考.md",
+      "version": "V2",
+      "blob_sha": "c669dafeaa8daf98edf6a3fde615f407bff128bc",
+      "size_bytes": 13681,
+      "preserved_path": "04_设定分析/资料依据/32_现实绯闻与现代架空参考.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/33_事业路线与伤后恢复核验.md",
+      "version": "V2",
+      "blob_sha": "4c800059332ef7d14b7feb3d4457adf85ca623a7",
+      "size_bytes": 12756,
+      "preserved_path": "04_设定分析/资料依据/33_事业路线与伤后恢复核验.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/34_李珠珢纹身参考与小说采用边界.md",
+      "version": "V2",
+      "blob_sha": "730a8ace7688dbe21d42a5ad08bfe5e0f7a292ae",
+      "size_bytes": 5033,
+      "preserved_path": "04_设定分析/资料依据/34_李珠珢纹身参考与小说采用边界.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/38_嘉弘病史与治疗路线核验.md",
+      "version": "V2",
+      "blob_sha": "23dd4254f52a9f19cc8692d84e6ebfe935bd0d52",
+      "size_bytes": 12415,
+      "preserved_path": "04_设定分析/资料依据/38_嘉弘病史与治疗路线核验.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/资料依据/README.md",
+      "version": "V2",
+      "blob_sha": "70d5dc6efdfc698a5d5cbf323e069f0712a4884c",
+      "size_bytes": 1702,
+      "preserved_path": "04_设定分析/资料依据/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章A版修订_20261107/README.md",
+      "version": "V2",
+      "blob_sha": "1efce982c8d235aff4a5b4e6441c3a034ab20be4",
+      "size_bytes": 3882,
+      "preserved_path": "04_设定分析/风格试读/第一章A版修订_20261107/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章A版修订_20261107/第001章_A_贴近嘉弘_二次修订.md",
+      "version": "V2",
+      "blob_sha": "0870cc2829f1d30bab9d5b9fabad04295f58415f",
+      "size_bytes": 20176,
+      "preserved_path": "04_设定分析/风格试读/第一章A版修订_20261107/第001章_A_贴近嘉弘_二次修订.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章A版修订_20261107/第001章_A_贴近嘉弘_修订.md",
+      "version": "V2",
+      "blob_sha": "f2000db37114f0e5d1f1fe1bb11b900aec193eb8",
+      "size_bytes": 21031,
+      "preserved_path": "04_设定分析/风格试读/第一章A版修订_20261107/第001章_A_贴近嘉弘_修订.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版/README.md",
+      "version": "V2",
+      "blob_sha": "f09dd631980e4589caab603e2f732748e5d02468",
+      "size_bytes": 3894,
+      "preserved_path": "04_设定分析/风格试读/第一章三版/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版/内容与连续性.md",
+      "version": "V2",
+      "blob_sha": "61194705eff6320fa38379857f30a313a13210fc",
+      "size_bytes": 6183,
+      "preserved_path": "04_设定分析/风格试读/第一章三版/内容与连续性.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版/第001章_A_贴近嘉弘.md",
+      "version": "V2",
+      "blob_sha": "598c7bb625652a85bf1a8073c5d2833f4ebb1dfb",
+      "size_bytes": 19872,
+      "preserved_path": "04_设定分析/风格试读/第一章三版/第001章_A_贴近嘉弘.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版/第001章_B_场景推进.md",
+      "version": "V2",
+      "blob_sha": "3a4a3a711032a952fbe03a3d1a74b21acf8f1d85",
+      "size_bytes": 19514,
+      "preserved_path": "04_设定分析/风格试读/第一章三版/第001章_B_场景推进.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版/第001章_C_生活留白.md",
+      "version": "V2",
+      "blob_sha": "b30841f4139765d2d2ad4d6aada96a93d82d6fd0",
+      "size_bytes": 18521,
+      "preserved_path": "04_设定分析/风格试读/第一章三版/第001章_C_生活留白.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版/第一章三版_精读比较_待审.md",
+      "version": "V2",
+      "blob_sha": "cdf2b979b28a9f876f227ea7b942f4fe3a0bed9a",
+      "size_bytes": 14137,
+      "preserved_path": "04_设定分析/风格试读/第一章三版/第一章三版_精读比较_待审.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版重写_20261106/README.md",
+      "version": "V2",
+      "blob_sha": "41e6a3863dc3d7f3c880b6ca7d2ce3b478bcdd47",
+      "size_bytes": 3069,
+      "preserved_path": "04_设定分析/风格试读/第一章三版重写_20261106/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版重写_20261106/第001章_A_贴近嘉弘_重写.md",
+      "version": "V2",
+      "blob_sha": "7f559dbfd04df652920dee39f4b949a970666991",
+      "size_bytes": 18450,
+      "preserved_path": "04_设定分析/风格试读/第一章三版重写_20261106/第001章_A_贴近嘉弘_重写.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版重写_20261106/第001章_B_场景推进_重写.md",
+      "version": "V2",
+      "blob_sha": "8a36c43102b22f1cf86793c1a3cb709a405ebbb6",
+      "size_bytes": 18606,
+      "preserved_path": "04_设定分析/风格试读/第一章三版重写_20261106/第001章_B_场景推进_重写.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "04_设定分析/风格试读/第一章三版重写_20261106/第001章_C_生活留白_重写.md",
+      "version": "V2",
+      "blob_sha": "421de0275a7e3924f35d7c7bfcabdf69c4e8685a",
+      "size_bytes": 18224,
+      "preserved_path": "04_设定分析/风格试读/第一章三版重写_20261106/第001章_C_生活留白_重写.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "05_独立新路线_待审/README.md",
+      "version": "V3",
+      "blob_sha": "685017248e08e54895567fadf547f067d26cb3cc",
+      "size_bytes": 1288,
+      "preserved_path": "05_独立新路线_待审/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "05_独立新路线_待审/慢慢有风_独立新路线_完整故事大纲.txt",
+      "version": "V3",
+      "blob_sha": "4233c2c829192e1e4f16c1695b2a503e22586eb1",
+      "size_bytes": 70203,
+      "preserved_path": "05_独立新路线_待审/慢慢有风_独立新路线_完整故事大纲.txt",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/README.md",
+      "version": "版本导航与历史索引",
+      "blob_sha": "6a0b247391d0c91953e90d5c1e971c44f68b81b9",
+      "size_bytes": 1922,
+      "preserved_path": "99_历史参考/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/00_全局配置档（每次写稿都读）/00_state.json",
+      "version": "V1",
+      "blob_sha": "61a1aaaeda89e2574d8d3cf7a6279c083ecc11fd",
+      "size_bytes": 16989,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/00_全局配置档（每次写稿都读）/00_state.json",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/02_正文/02_正文_合集_第001-054章.md",
+      "version": "V1",
+      "blob_sha": "ad7b980a2d62f726a6740856e512aa63340f8392",
+      "size_bytes": 603967,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/02_正文/02_正文_合集_第001-054章.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/02_正文/第001章_除湿机满水的那一夜.md",
+      "version": "V1",
+      "blob_sha": "98fcdb35ce742426293b0345ace0e4c7da161487",
+      "size_bytes": 13599,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/02_正文/第001章_除湿机满水的那一夜.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/README.md",
+      "version": "V1",
+      "blob_sha": "a5b0de24b56e24c02fc20bc00064ad1a13022c0c",
+      "size_bytes": 5685,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/目录分类说明.md",
+      "version": "V1",
+      "blob_sha": "d39990abc4a7c78e1b8243cba1ec89f9846f1c9f",
+      "size_bytes": 3552,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/目录分类说明.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/00_迁移清单.md",
+      "version": "V1",
+      "blob_sha": "f6a061ceb48f3b978c75680c06b30b8f14e5ee10",
+      "size_bytes": 6177,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/00_迁移清单.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/CLAUDE.md",
+      "version": "V1",
+      "blob_sha": "ecf69c07babc8cd1231a19911538cd8f367021fd",
+      "size_bytes": 863,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/CLAUDE.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/jiahong-voice.md",
+      "version": "V1",
+      "blob_sha": "4e4da27c7dcc6f0bbf12385b653fbb9a41941293",
+      "size_bytes": 8351,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/jiahong-voice.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/novel-writer.md",
+      "version": "V1",
+      "blob_sha": "3c40992a6b97ecb6dcbf379cb90a757ea825149e",
+      "size_bytes": 14306,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/novel-writer.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/seba-style.md",
+      "version": "V1",
+      "blob_sha": "acb3bb403c51e30d57e2d3c86a9567a8b7ffd4f7",
+      "size_bytes": 13781,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/seba-style.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/winter-voice.md",
+      "version": "V1",
+      "blob_sha": "c032be9d8c59b9c131d85429f7025d052357d57c",
+      "size_bytes": 9974,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/winter-voice.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "99_历史参考/main合并前_2026-11-05/迁移包/项目文件_外带清单.md",
+      "version": "V1",
+      "blob_sha": "f0070ebaf8e9a2cb9e4304c8a0fe574a98560af8",
+      "size_bytes": 4053,
+      "preserved_path": "99_历史参考/main合并前_2026-11-05/迁移包/项目文件_外带清单.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "README.md",
+      "version": "版本导航与历史索引",
+      "blob_sha": "f9f20f5bea785e3e2a630b0c010f06f9cc93054c",
+      "size_bytes": 7947,
+      "preserved_path": "99_历史参考/版本分类前导航_2026-11-07/README.md",
+      "status": "导航更新；原文另存同一blob快照"
+    },
+    {
+      "path": "目录分类说明.md",
+      "version": "版本导航与历史索引",
+      "blob_sha": "e3adb49e3efbc44ebf3e1e9b9536d3e4b7d1f626",
+      "size_bytes": 2858,
+      "preserved_path": "99_历史参考/版本分类前导航_2026-11-07/目录分类说明.md",
+      "status": "导航更新；原文另存同一blob快照"
+    },
+    {
+      "path": "迁移包/00_迁移清单.md",
+      "version": "V1",
+      "blob_sha": "f6a061ceb48f3b978c75680c06b30b8f14e5ee10",
+      "size_bytes": 6177,
+      "preserved_path": "迁移包/00_迁移清单.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/CLAUDE.md",
+      "version": "V1",
+      "blob_sha": "ecf69c07babc8cd1231a19911538cd8f367021fd",
+      "size_bytes": 863,
+      "preserved_path": "迁移包/CLAUDE.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/README.md",
+      "version": "V1",
+      "blob_sha": "f41e0a2dd318ad67073ec5cd09a4a3b21f80ffe5",
+      "size_bytes": 953,
+      "preserved_path": "迁移包/README.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/jiahong-voice.md",
+      "version": "V1",
+      "blob_sha": "4e4da27c7dcc6f0bbf12385b653fbb9a41941293",
+      "size_bytes": 8351,
+      "preserved_path": "迁移包/jiahong-voice.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/novel-writer.md",
+      "version": "V1",
+      "blob_sha": "3c40992a6b97ecb6dcbf379cb90a757ea825149e",
+      "size_bytes": 14306,
+      "preserved_path": "迁移包/novel-writer.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/seba-style.md",
+      "version": "V1",
+      "blob_sha": "acb3bb403c51e30d57e2d3c86a9567a8b7ffd4f7",
+      "size_bytes": 13781,
+      "preserved_path": "迁移包/seba-style.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/winter-voice.md",
+      "version": "V1",
+      "blob_sha": "c032be9d8c59b9c131d85429f7025d052357d57c",
+      "size_bytes": 9974,
+      "preserved_path": "迁移包/winter-voice.md",
+      "status": "原路径原文保留"
+    },
+    {
+      "path": "迁移包/项目文件_外带清单.md",
+      "version": "V1",
+      "blob_sha": "f0070ebaf8e9a2cb9e4304c8a0fe574a98560af8",
+      "size_bytes": 4053,
+      "preserved_path": "迁移包/项目文件_外带清单.md",
+      "status": "原路径原文保留"
+    }
+  ]
+}
