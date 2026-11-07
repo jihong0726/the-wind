@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 62,
-  "chapter_count": 62,
-  "total_han": 183076,
-  "total_non_whitespace_including_punctuation": 213904,
+  "through_chapter": 63,
+  "chapter_count": 63,
+  "total_han": 186161,
+  "total_non_whitespace_including_punctuation": 217517,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -450,6 +450,13 @@
       "han": 4146,
       "non_whitespace_including_punctuation": 4909,
       "sha256": "fdc25ea023837d341f38eb6cb3e35393fa46fc2df3f8d0d33683ee568f0bae32"
+    },
+    {
+      "number": 63,
+      "path": "01_新文档/01_正文/第063章_没装车的两张.md",
+      "han": 3085,
+      "non_whitespace_including_punctuation": 3613,
+      "sha256": "753d0f09ce2625a5bb9fd194cccf92c76194ab7be9f1bbe07cb7a2f117dbe5ba"
     }
   ],
   "errors": [],
