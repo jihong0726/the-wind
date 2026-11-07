@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 56,
-  "chapter_count": 56,
-  "total_han": 159010,
-  "total_non_whitespace_including_punctuation": 185578,
+  "through_chapter": 57,
+  "chapter_count": 57,
+  "total_han": 161340,
+  "total_non_whitespace_including_punctuation": 188376,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -408,6 +408,13 @@
       "han": 2425,
       "non_whitespace_including_punctuation": 2852,
       "sha256": "264b3a8e3671d977efb8c1d9663ba174ed20066382c221c9d94a15ac13e8ea45"
+    },
+    {
+      "number": 57,
+      "path": "01_新文档/01_正文/第057章_还要钓一会儿.md",
+      "han": 2330,
+      "non_whitespace_including_punctuation": 2798,
+      "sha256": "340624a454c7236dc62ed3e45b9be978f0dfc39712d70bdf35efa10e4ee60481"
     }
   ],
   "errors": [],
