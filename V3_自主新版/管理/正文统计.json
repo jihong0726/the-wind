@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 27,
-  "chapter_count": 27,
-  "total_han": 81741,
-  "total_non_whitespace_including_punctuation": 95062,
+  "through_chapter": 29,
+  "chapter_count": 29,
+  "total_han": 86212,
+  "total_non_whitespace_including_punctuation": 100290,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -205,6 +205,20 @@
       "han": 2647,
       "non_whitespace_including_punctuation": 3103,
       "sha256": "5a498d9c449b7febb094168265a2596b3c7696842be8b11f14eb921d9cf9f3dd"
+    },
+    {
+      "number": 28,
+      "path": "正文/第028章_先把星期四留下.md",
+      "han": 2353,
+      "non_whitespace_including_punctuation": 2807,
+      "sha256": "dbced65d3ab235cfbdda4c22674b4add1bb1de5341a1187115ac967c2c09b339"
+    },
+    {
+      "number": 29,
+      "path": "正文/第029章_这一面朝外.md",
+      "han": 2118,
+      "non_whitespace_including_punctuation": 2421,
+      "sha256": "0fb25f7136d9f18283e883d5fdaed8a9832d9ab8b263b35b52a03db0ddd0ff95"
     }
   ],
   "errors": [],
