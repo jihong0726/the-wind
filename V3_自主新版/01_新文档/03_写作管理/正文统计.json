@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 50,
-  "chapter_count": 50,
-  "total_han": 139554,
-  "total_non_whitespace_including_punctuation": 162662,
+  "through_chapter": 51,
+  "chapter_count": 51,
+  "total_han": 142532,
+  "total_non_whitespace_including_punctuation": 166223,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -366,6 +366,13 @@
       "han": 3543,
       "non_whitespace_including_punctuation": 4079,
       "sha256": "3cd55b5819ed0b1680d5bc31697889089ec29893d2036c14746adb2bcddc0351"
+    },
+    {
+      "number": 51,
+      "path": "01_新文档/01_正文/第051章_这回坐对面.md",
+      "han": 2978,
+      "non_whitespace_including_punctuation": 3561,
+      "sha256": "84c144e61f0024f7b1893cb2562e69a2aa0c9f75df87e3ae884a7542ec788c0e"
     }
   ],
   "errors": [],
