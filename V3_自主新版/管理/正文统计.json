@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 33,
-  "chapter_count": 33,
-  "total_han": 92607,
-  "total_non_whitespace_including_punctuation": 107976,
+  "through_chapter": 34,
+  "chapter_count": 34,
+  "total_han": 94863,
+  "total_non_whitespace_including_punctuation": 110593,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -247,6 +247,13 @@
       "han": 2395,
       "non_whitespace_including_punctuation": 2769,
       "sha256": "0c9f5edbd17ff55bf4401ab449c1c8a07af90548f942c3a16e65ffda62489548"
+    },
+    {
+      "number": 34,
+      "path": "正文/第034章_她还是用那把椅子.md",
+      "han": 2256,
+      "non_whitespace_including_punctuation": 2617,
+      "sha256": "d6c0b658385a224b4f2ac2be668b221767aa20326ba83a45d7c0a6aacf9fa531"
     }
   ],
   "errors": [],
