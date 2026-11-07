@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 51,
-  "chapter_count": 51,
-  "total_han": 142532,
-  "total_non_whitespace_including_punctuation": 166223,
+  "through_chapter": 52,
+  "chapter_count": 52,
+  "total_han": 146276,
+  "total_non_whitespace_including_punctuation": 170492,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -373,6 +373,13 @@
       "han": 2978,
       "non_whitespace_including_punctuation": 3561,
       "sha256": "84c144e61f0024f7b1893cb2562e69a2aa0c9f75df87e3ae884a7542ec788c0e"
+    },
+    {
+      "number": 52,
+      "path": "01_新文档/01_正文/第052章_还没数到三.md",
+      "han": 3744,
+      "non_whitespace_including_punctuation": 4269,
+      "sha256": "b5e359ff64f734de1e5ce89ed69e826ae2713888e6144c0115c3645bd5e57e89"
     }
   ],
   "errors": [],
