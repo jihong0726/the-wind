@@ -2,8 +2,8 @@
   "scope": "V3 current files only; 99_旧文档 excluded",
   "through_chapter": 49,
   "chapter_count": 49,
-  "total_han": 136500,
-  "total_non_whitespace_including_punctuation": 159148,
+  "total_han": 136011,
+  "total_non_whitespace_including_punctuation": 158583,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -62,9 +62,9 @@
     {
       "number": 7,
       "path": "01_新文档/01_正文/第007章_她没有解释的部分.md",
-      "han": 2714,
-      "non_whitespace_including_punctuation": 3161,
-      "sha256": "55dfca92cef9b866b3cc1797c47bd252833a9f7e23d93b09a60c072e1159145e"
+      "han": 2478,
+      "non_whitespace_including_punctuation": 2893,
+      "sha256": "cd1d3ea50226f0847798b17910c6e25770f331eeb1f8375b3c66f707d374ce7b"
     },
     {
       "number": 8,
@@ -76,9 +76,9 @@
     {
       "number": 9,
       "path": "01_新文档/01_正文/第009章_不是所有事都需要建议.md",
-      "han": 2418,
-      "non_whitespace_including_punctuation": 2801,
-      "sha256": "9e663a087ec2a8382d104850d138aa36c6bd2ef1638a00e10211d1e11cf68bef"
+      "han": 2165,
+      "non_whitespace_including_punctuation": 2504,
+      "sha256": "d68c11326e1780da0d49a1d4137d73d18c1e8db0c6e558ae99ad738fd2eccb86"
     },
     {
       "number": 10,
