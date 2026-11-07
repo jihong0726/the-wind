@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 7,
-  "chapter_count": 7,
-  "total_han": 29260,
-  "total_non_whitespace_including_punctuation": 33982,
+  "through_chapter": 10,
+  "chapter_count": 10,
+  "total_han": 37964,
+  "total_non_whitespace_including_punctuation": 44079,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -65,6 +65,27 @@
       "han": 2714,
       "non_whitespace_including_punctuation": 3161,
       "sha256": "55dfca92cef9b866b3cc1797c47bd252833a9f7e23d93b09a60c072e1159145e"
+    },
+    {
+      "number": 8,
+      "path": "正文/第008章_陈泊的计算器.md",
+      "han": 2989,
+      "non_whitespace_including_punctuation": 3477,
+      "sha256": "fcd383335e4b14a479fef8a6cf002ffa23ee2c798195fa3b6cefd8eb91c3b99d"
+    },
+    {
+      "number": 9,
+      "path": "正文/第009章_不是所有事都需要建议.md",
+      "han": 2687,
+      "non_whitespace_including_punctuation": 3105,
+      "sha256": "8eee28185b82a6a4dc1d4790100ca5e3b93db192ce89965025f0bcdfdbd9c4c6"
+    },
+    {
+      "number": 10,
+      "path": "正文/第010章_明天再说.md",
+      "han": 3028,
+      "non_whitespace_including_punctuation": 3515,
+      "sha256": "e079edfbdb995647857568f60f7fe7608b6e95eda5b7a449ac3fb60004ed63ad"
     }
   ],
   "errors": [],
