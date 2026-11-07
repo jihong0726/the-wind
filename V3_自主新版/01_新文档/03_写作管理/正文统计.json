@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 64,
-  "chapter_count": 64,
-  "total_han": 188025,
-  "total_non_whitespace_including_punctuation": 219698,
+  "through_chapter": 65,
+  "chapter_count": 65,
+  "total_han": 191292,
+  "total_non_whitespace_including_punctuation": 223453,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -464,6 +464,13 @@
       "han": 1886,
       "non_whitespace_including_punctuation": 2205,
       "sha256": "6f884b28db9c0bcd7f41598abf79b9ae8d2b422821eacae4f528d2db1063e90d"
+    },
+    {
+      "number": 65,
+      "path": "01_新文档/01_正文/第065章_这一张是他的.md",
+      "han": 3267,
+      "non_whitespace_including_punctuation": 3755,
+      "sha256": "ba25f76038ceadca2dbeae9a10b3652737cccda051a15d66b0f5519f5da8d9d5"
     }
   ],
   "errors": [],
