@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 5,
-  "chapter_count": 5,
-  "total_han": 23174,
-  "total_non_whitespace_including_punctuation": 26920,
+  "through_chapter": 6,
+  "chapter_count": 6,
+  "total_han": 26546,
+  "total_non_whitespace_including_punctuation": 30821,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -51,6 +51,13 @@
       "han": 2936,
       "non_whitespace_including_punctuation": 3421,
       "sha256": "5311f0bc37f2d532d6b15f1d77f86e5653f9ba699b52c86bb46ac87c1165222a"
+    },
+    {
+      "number": 6,
+      "path": "正文/第006章_现场比图纸吵.md",
+      "han": 3372,
+      "non_whitespace_including_punctuation": 3901,
+      "sha256": "c384f1813eb29b72f61a6b6a71bde9e877b48c410710d8031e62eed38f819924"
     }
   ],
   "errors": [],
