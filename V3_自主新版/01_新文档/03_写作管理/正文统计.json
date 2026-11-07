@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 57,
-  "chapter_count": 57,
-  "total_han": 161340,
-  "total_non_whitespace_including_punctuation": 188376,
+  "through_chapter": 58,
+  "chapter_count": 58,
+  "total_han": 166545,
+  "total_non_whitespace_including_punctuation": 194478,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -188,16 +188,16 @@
     {
       "number": 25,
       "path": "01_新文档/01_正文/第025章_要不要一起吃饭.md",
-      "han": 2351,
-      "non_whitespace_including_punctuation": 2747,
-      "sha256": "a19a17b04830896a3d0ce6ab0f101023ee6c605b30395109c12aaee8ad5ab7e4"
+      "han": 2333,
+      "non_whitespace_including_punctuation": 2727,
+      "sha256": "2f3b8ac005afc9027e557fbc2277fc9efa32175cf4f337cfc4b7cc940ec79e36"
     },
     {
       "number": 26,
       "path": "01_新文档/01_正文/第026章_第一次听见.md",
-      "han": 2438,
-      "non_whitespace_including_punctuation": 2925,
-      "sha256": "96538e1550a7a8b0fcad6814b29ef6839d83939807a117bab1f2309452aadf5d"
+      "han": 2424,
+      "non_whitespace_including_punctuation": 2910,
+      "sha256": "bde7ce53b6cbda0332d24764edb7b06025e40aa4d73554a10d8abd0f6b1393cc"
     },
     {
       "number": 27,
@@ -415,6 +415,13 @@
       "han": 2330,
       "non_whitespace_including_punctuation": 2798,
       "sha256": "340624a454c7236dc62ed3e45b9be978f0dfc39712d70bdf35efa10e4ee60481"
+    },
+    {
+      "number": 58,
+      "path": "01_新文档/01_正文/第058章_鱼还在锅里.md",
+      "han": 5237,
+      "non_whitespace_including_punctuation": 6137,
+      "sha256": "4e4282c9007c4e12c9a9b3b0e37fcceba79ea246f93acf9dea3c01cfcc76a956"
     }
   ],
   "errors": [],
