@@ -30,8 +30,10 @@ def chapter_body(text: str) -> str:
         raise ValueError('Only the chapter title may use a Markdown heading.')
     return '\n'.join(lines[1:]).strip()
 
-def check(root: Path, min_nonwhite: int | None = None, max_nonwhite: int | None = None) -> dict:
+def check(root: Path, min_nonwhite: int | None = None, max_nonwhite: int | None = None, through: int | None = None) -> dict:
     files = sorted((root/'正文').glob('第[0-9][0-9][0-9]章_*.md'))
+    if through is not None:
+        files = [p for p in files if int(p.name[1:4]) <= through]
     errors, warnings, chapters = [], [], []
     paragraphs = defaultdict(list)
     numbers = []
@@ -74,7 +76,7 @@ def check(root: Path, min_nonwhite: int | None = None, max_nonwhite: int | None 
             for i, token in enumerate(BLOCKED):
                 if token.casefold() in text:
                     errors.append({'path': str(path.relative_to(root)), 'error': 'Disallowed real-identity token', 'token_id': i+1})
-    return {'scope': 'V3 only; historical sources excluded', 'chapter_count': len(chapters),
+    return {'scope': 'V3 only; historical sources excluded', 'through_chapter': through, 'chapter_count': len(chapters),
             'total_han': sum(c['han'] for c in chapters),
             'total_non_whitespace_including_punctuation': sum(c['non_whitespace_including_punctuation'] for c in chapters),
             'target_non_whitespace_including_punctuation': 3200000,
@@ -90,10 +92,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--through', type=int, help='Only include chapters up to this approved chapter number')
     parser.add_argument('--min-nonwhite', type=int, help='Only set after checking the selected platform; no default minimum')
     parser.add_argument('--max-nonwhite', type=int, help='Only set after checking the selected platform; no default maximum')
     args = parser.parse_args()
-    result = check(args.root, args.min_nonwhite, args.max_nonwhite)
+    result = check(args.root, args.min_nonwhite, args.max_nonwhite, args.through)
     rendered = json.dumps(result, ensure_ascii=False, indent=2)+'\n'
     if args.output: args.output.write_text(rendered, encoding='utf-8')
     print(rendered)

@@ -35,5 +35,19 @@ class ValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d); self.make(root, '风'*400+'\n\n'+'风'*400)
             self.assertTrue(v.check(root)['warnings'])
+    def test_empty_body_rejected(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d); self.make(root, ' \n ')
+            self.assertFalse(v.check(root)['mechanical_checks_passed'])
+    def test_explicit_maximum_rejected(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d); self.make(root, '风'*400)
+            self.assertFalse(v.check(root, max_nonwhite=300)['mechanical_checks_passed'])
+    def test_mismatched_heading_rejected(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d); self.make(root, '风'*400)
+            p=root/'正文'/'第001章_测试.md'
+            p.write_text(p.read_text().replace('第001章', '第002章'))
+            self.assertFalse(v.check(root)['mechanical_checks_passed'])
 
 if __name__ == '__main__': unittest.main()

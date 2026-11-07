@@ -1,8 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "chapter_count": 3,
-  "total_han": 17333,
-  "total_non_whitespace_including_punctuation": 20161,
+  "through_chapter": 5,
+  "chapter_count": 5,
+  "total_han": 23174,
+  "total_non_whitespace_including_punctuation": 26920,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -33,9 +34,23 @@
     {
       "number": 3,
       "path": "正文/第003章_谁量错了.md",
-      "han": 5757,
-      "non_whitespace_including_punctuation": 6672,
-      "sha256": "54a63f3df57fa30258ea47c6cbd92c9d1ad26e3aa328443bc126c4eaf41ca887"
+      "han": 5761,
+      "non_whitespace_including_punctuation": 6677,
+      "sha256": "45693c666752deb7a595bcb6530dce35337216c8181c516c3a344a95430fbf4f"
+    },
+    {
+      "number": 4,
+      "path": "正文/第004章_一顿没有做好的饭.md",
+      "han": 2901,
+      "non_whitespace_including_punctuation": 3333,
+      "sha256": "f0dacc2d22978088b16b9a8cf03b349059f1f89185f03da06f7d64eefc6b55da"
+    },
+    {
+      "number": 5,
+      "path": "正文/第005章_四个月.md",
+      "han": 2936,
+      "non_whitespace_including_punctuation": 3421,
+      "sha256": "5311f0bc37f2d532d6b15f1d77f86e5653f9ba699b52c86bb46ac87c1165222a"
     }
   ],
   "errors": [],
