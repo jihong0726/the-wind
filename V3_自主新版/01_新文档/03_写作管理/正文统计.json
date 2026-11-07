@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 69,
-  "chapter_count": 69,
-  "total_han": 206153,
-  "total_non_whitespace_including_punctuation": 240655,
+  "through_chapter": 70,
+  "chapter_count": 70,
+  "total_han": 209438,
+  "total_non_whitespace_including_punctuation": 244456,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -499,6 +499,13 @@
       "han": 3328,
       "non_whitespace_including_punctuation": 3841,
       "sha256": "f55c80a512d40dd1bbc4c01087ff14d1b8adc759508764ce4646fc04a2a18e33"
+    },
+    {
+      "number": 70,
+      "path": "01_新文档/01_正文/第070章_这一遍.md",
+      "han": 3285,
+      "non_whitespace_including_punctuation": 3801,
+      "sha256": "1a9e14f2435ae090c9c0df3e5bf56128f3dc924fc50f8dcfe1896e89888a93d9"
     }
   ],
   "errors": [],
