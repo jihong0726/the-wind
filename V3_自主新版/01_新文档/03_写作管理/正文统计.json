@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 52,
-  "chapter_count": 52,
-  "total_han": 146276,
-  "total_non_whitespace_including_punctuation": 170492,
+  "through_chapter": 53,
+  "chapter_count": 53,
+  "total_han": 149397,
+  "total_non_whitespace_including_punctuation": 174199,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -380,6 +380,13 @@
       "han": 3744,
       "non_whitespace_including_punctuation": 4269,
       "sha256": "b5e359ff64f734de1e5ce89ed69e826ae2713888e6144c0115c3645bd5e57e89"
+    },
+    {
+      "number": 53,
+      "path": "01_新文档/01_正文/第053章_到你这里来.md",
+      "han": 3121,
+      "non_whitespace_including_punctuation": 3707,
+      "sha256": "8b0d57b4207eb8675cdb1cf1aba56311b5cc1e1c237c6689ceaa567d628f24aa"
     }
   ],
   "errors": [],
