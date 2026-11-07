@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 40,
-  "chapter_count": 40,
-  "total_han": 114949,
-  "total_non_whitespace_including_punctuation": 133980,
+  "through_chapter": 41,
+  "chapter_count": 41,
+  "total_han": 117569,
+  "total_non_whitespace_including_punctuation": 137075,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -296,6 +296,13 @@
       "han": 3001,
       "non_whitespace_including_punctuation": 3438,
       "sha256": "56a644d24f7877e3c023d603400b08e4762abad8a3b2891120aebf780d60e53d"
+    },
+    {
+      "number": 41,
+      "path": "01_新文档/01_正文/第041章_不只是星期五.md",
+      "han": 2620,
+      "non_whitespace_including_punctuation": 3095,
+      "sha256": "34c94d1fca97e2089fc13847dbd07e49a478201d0d2c80bcb0e397f0c0e961c8"
     }
   ],
   "errors": [],
