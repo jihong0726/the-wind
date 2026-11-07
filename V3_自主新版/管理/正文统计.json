@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 18,
-  "chapter_count": 18,
-  "total_han": 58795,
-  "total_non_whitespace_including_punctuation": 68311,
+  "through_chapter": 22,
+  "chapter_count": 22,
+  "total_han": 69398,
+  "total_non_whitespace_including_punctuation": 80611,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -142,6 +142,34 @@
       "han": 1395,
       "non_whitespace_including_punctuation": 1635,
       "sha256": "d9e0cd794ba367e251eba0c6652ee68b43e349bd17e66d5229abef777947135a"
+    },
+    {
+      "number": 19,
+      "path": "正文/第019章_右边回来的声音.md",
+      "han": 2802,
+      "non_whitespace_including_punctuation": 3171,
+      "sha256": "80662f2d068070ce6ad7e24183a5e11a199027df571d60501bb746b77b656208"
+    },
+    {
+      "number": 20,
+      "path": "正文/第020章_宽出去的一点.md",
+      "han": 2603,
+      "non_whitespace_including_punctuation": 2985,
+      "sha256": "e63a2d3f4e2556087b6128dff3fc1471fcde62dfd22738724e09d3286fc9d097"
+    },
+    {
+      "number": 21,
+      "path": "正文/第021章_靠窗那一块.md",
+      "han": 2522,
+      "non_whitespace_including_punctuation": 2950,
+      "sha256": "16834648544ae92aa4eea3432caec8049e77d7c345502888cd0643b4b4653995"
+    },
+    {
+      "number": 22,
+      "path": "正文/第022章_不做杯子了.md",
+      "han": 2676,
+      "non_whitespace_including_punctuation": 3194,
+      "sha256": "9fd2a12f2b92254d8c632c9d097abcc31884546ab3a26aeaefa0a442114a65a8"
     }
   ],
   "errors": [],

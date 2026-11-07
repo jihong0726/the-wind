@@ -22,30 +22,41 @@ def counts(body: str) -> dict:
     return {'han': sum(han(c) for c in body),
             'non_whitespace_including_punctuation': sum(not c.isspace() for c in body)}
 
+def chapter_number(filename: str) -> int | None:
+    """Parse the entire filename; ASCII decimal numbers have at least three digits."""
+    match = re.fullmatch(r'第([0-9]{3,})章_.*\.md', filename)
+    return int(match[1]) if match else None
+
+def chapter_files(root: Path, through: int | None = None) -> list[Path]:
+    numbered = []
+    for path in (root/'正文').glob('*.md'):
+        number = chapter_number(path.name)
+        if path.is_file() and number is not None and (through is None or number <= through):
+            numbered.append((number, path.name, path))
+    return [path for _, _, path in sorted(numbered)]
+
 def chapter_body(text: str) -> str:
     lines = text.splitlines()
-    if not lines or not re.fullmatch(r'# 第\d{3}章\s+.+', lines[0]):
+    if not lines or not re.fullmatch(r'# 第[0-9]{3,}章\s+.+', lines[0]):
         raise ValueError('The first line must be the chapter title only.')
     if any(line.startswith('#') for line in lines[1:]):
         raise ValueError('Only the chapter title may use a Markdown heading.')
     return '\n'.join(lines[1:]).strip()
 
 def check(root: Path, min_nonwhite: int | None = None, max_nonwhite: int | None = None, through: int | None = None) -> dict:
-    files = sorted((root/'正文').glob('第[0-9][0-9][0-9]章_*.md'))
-    if through is not None:
-        files = [p for p in files if int(p.name[1:4]) <= through]
+    files = chapter_files(root, through)
     errors, warnings, chapters = [], [], []
     paragraphs = defaultdict(list)
     numbers = []
     for path in files:
-        number = int(path.name[1:4]); numbers.append(number)
+        number = chapter_number(path.name); numbers.append(number)
         text = path.read_text(encoding='utf-8')
         try:
             body = chapter_body(text)
         except ValueError as e:
             errors.append({'path': str(path.relative_to(root)), 'error': str(e)})
             continue
-        if int(re.match(r'# 第(\d{3})章', text)[1]) != number:
+        if int(re.match(r'# 第([0-9]{3,})章', text)[1]) != number:
             errors.append({'path': path.name, 'error': 'Filename/title chapter number mismatch'})
         metrics = counts(body)
         size = metrics['non_whitespace_including_punctuation']
