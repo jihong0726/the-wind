@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 53,
-  "chapter_count": 53,
-  "total_han": 149397,
-  "total_non_whitespace_including_punctuation": 174199,
+  "through_chapter": 54,
+  "chapter_count": 54,
+  "total_han": 152534,
+  "total_non_whitespace_including_punctuation": 177917,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -387,6 +387,13 @@
       "han": 3121,
       "non_whitespace_including_punctuation": 3707,
       "sha256": "8b0d57b4207eb8675cdb1cf1aba56311b5cc1e1c237c6689ceaa567d628f24aa"
+    },
+    {
+      "number": 54,
+      "path": "01_新文档/01_正文/第054章_还坐这边.md",
+      "han": 3137,
+      "non_whitespace_including_punctuation": 3718,
+      "sha256": "c16a44ce8b39d78b59e8a81a6c5c280fedc009ad63f39ffef1b4e73255e7c4f9"
     }
   ],
   "errors": [],
