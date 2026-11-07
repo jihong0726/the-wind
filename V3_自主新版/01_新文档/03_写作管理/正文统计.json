@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 67,
-  "chapter_count": 67,
-  "total_han": 198283,
-  "total_non_whitespace_including_punctuation": 231562,
+  "through_chapter": 68,
+  "chapter_count": 68,
+  "total_han": 202859,
+  "total_non_whitespace_including_punctuation": 236851,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -485,6 +485,13 @@
       "han": 3211,
       "non_whitespace_including_punctuation": 3737,
       "sha256": "04393ba0912cad6d047e6342735f8e583be4d1808c4f5407b6920ad9cbfa467e"
+    },
+    {
+      "number": 68,
+      "path": "01_新文档/01_正文/第068章_两个晚上.md",
+      "han": 4576,
+      "non_whitespace_including_punctuation": 5289,
+      "sha256": "5fa54d066d509002741b5c38dcec22e4f28a3af2b29e26c5a895162845ef6511"
     }
   ],
   "errors": [],
