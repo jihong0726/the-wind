@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 60,
-  "chapter_count": 60,
-  "total_han": 174622,
-  "total_non_whitespace_including_punctuation": 203961,
+  "through_chapter": 61,
+  "chapter_count": 61,
+  "total_han": 178930,
+  "total_non_whitespace_including_punctuation": 208995,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -436,6 +436,13 @@
       "han": 3684,
       "non_whitespace_including_punctuation": 4316,
       "sha256": "824d75d16407387ec75ff1968d5c43009ccdd612b202b281187913f019d3c492"
+    },
+    {
+      "number": 61,
+      "path": "01_新文档/01_正文/第061章_另一个声音.md",
+      "han": 4308,
+      "non_whitespace_including_punctuation": 5034,
+      "sha256": "b9422ba86655f6491b727b2f45fb592991a840b84a646de0ed8befedecc15d28"
     }
   ],
   "errors": [],
