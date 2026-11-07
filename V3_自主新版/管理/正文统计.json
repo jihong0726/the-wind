@@ -1,0 +1,44 @@
+{
+  "scope": "V3 only; historical sources excluded",
+  "chapter_count": 3,
+  "total_han": 17333,
+  "total_non_whitespace_including_punctuation": 20161,
+  "target_non_whitespace_including_punctuation": 3200000,
+  "target_range": [
+    3040000,
+    3360000
+  ],
+  "platform_word_count_equivalence_verified": false,
+  "configured_chapter_nonwhite_limits": [
+    null,
+    null
+  ],
+  "fixed_han_minimum_enforced": false,
+  "literary_quality_verified_by_this_script": false,
+  "chapters": [
+    {
+      "number": 1,
+      "path": "正文/第001章_搬不进去的柜子.md",
+      "han": 5509,
+      "non_whitespace_including_punctuation": 6451,
+      "sha256": "06ece674de0832acfbccf71339a67f5a54d10e5e71f0142143a241c30b1d53ca"
+    },
+    {
+      "number": 2,
+      "path": "正文/第002章_晚一点才看见.md",
+      "han": 6067,
+      "non_whitespace_including_punctuation": 7038,
+      "sha256": "df395d729628617f5137b0057a38931c154e7fa662b047f14f871517678f7c8e"
+    },
+    {
+      "number": 3,
+      "path": "正文/第003章_谁量错了.md",
+      "han": 5757,
+      "non_whitespace_including_punctuation": 6672,
+      "sha256": "54a63f3df57fa30258ea47c6cbd92c9d1ad26e3aa328443bc126c4eaf41ca887"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "mechanical_checks_passed": true
+}
