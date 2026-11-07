@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 34,
-  "chapter_count": 34,
-  "total_han": 98650,
-  "total_non_whitespace_including_punctuation": 115030,
+  "through_chapter": 35,
+  "chapter_count": 35,
+  "total_han": 101439,
+  "total_non_whitespace_including_punctuation": 118322,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -254,6 +254,13 @@
       "han": 2256,
       "non_whitespace_including_punctuation": 2617,
       "sha256": "d6c0b658385a224b4f2ac2be668b221767aa20326ba83a45d7c0a6aacf9fa531"
+    },
+    {
+      "number": 35,
+      "path": "01_新文档/01_正文/第035章_没有让你.md",
+      "han": 2789,
+      "non_whitespace_including_punctuation": 3292,
+      "sha256": "d6e00a8846768e4a1cfba5e1eaedbd0dd3847d8c3abc3cf3fd1809fe2ae44a43"
     }
   ],
   "errors": [],
