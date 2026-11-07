@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 29,
-  "chapter_count": 29,
-  "total_han": 86212,
-  "total_non_whitespace_including_punctuation": 100290,
+  "through_chapter": 32,
+  "chapter_count": 32,
+  "total_han": 90212,
+  "total_non_whitespace_including_punctuation": 105207,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -41,23 +41,23 @@
     {
       "number": 4,
       "path": "正文/第004章_一顿没有做好的饭.md",
-      "han": 2901,
-      "non_whitespace_including_punctuation": 3333,
-      "sha256": "f0dacc2d22978088b16b9a8cf03b349059f1f89185f03da06f7d64eefc6b55da"
+      "han": 2511,
+      "non_whitespace_including_punctuation": 2874,
+      "sha256": "6dcab5fcf8d7d78712bfcdedc6c7123238cca7e337c28a69ad8d583b3648ddd4"
     },
     {
       "number": 5,
       "path": "正文/第005章_四个月.md",
-      "han": 2936,
-      "non_whitespace_including_punctuation": 3421,
-      "sha256": "5311f0bc37f2d532d6b15f1d77f86e5653f9ba699b52c86bb46ac87c1165222a"
+      "han": 2603,
+      "non_whitespace_including_punctuation": 3050,
+      "sha256": "46edb984cb99c9eab0b1e31a5c2fcecb187d1b61e6490d9f9195280aa4c108a3"
     },
     {
       "number": 6,
       "path": "正文/第006章_现场比图纸吵.md",
-      "han": 3299,
-      "non_whitespace_including_punctuation": 3822,
-      "sha256": "71011a3cd30835ad2c6849a54b5028af506c2630c6351c5485fa3d3b2dd83521"
+      "han": 3092,
+      "non_whitespace_including_punctuation": 3592,
+      "sha256": "5ba2e36fb4ac15520b72d5b622db2bef71e1dc7f3144fafce6c0d8c7e8cb11b8"
     },
     {
       "number": 7,
@@ -111,30 +111,30 @@
     {
       "number": 14,
       "path": "正文/第014章_最后一遍.md",
-      "han": 3057,
-      "non_whitespace_including_punctuation": 3506,
-      "sha256": "dcebd81e287527ce0334885d815ad0846b3756693e418d9868136f1cdd9339a3"
+      "han": 2679,
+      "non_whitespace_including_punctuation": 3084,
+      "sha256": "e5000d49b29375d4de34aeda7375840638759d635ba626550060244a44152b29"
     },
     {
       "number": 15,
       "path": "正文/第015章_盘子是她的.md",
-      "han": 2789,
-      "non_whitespace_including_punctuation": 3221,
-      "sha256": "39cb43ee49e3a1401355774e3dc1aafd9bdf95188998e65afc30f2afdc7517c8"
+      "han": 2132,
+      "non_whitespace_including_punctuation": 2487,
+      "sha256": "0bc7a2e236b6c56a6cc94c42d83032615c0c23edbd8aca35b0233bf4d8465c9e"
     },
     {
       "number": 16,
       "path": "正文/第016章_先放在这里.md",
-      "han": 2959,
-      "non_whitespace_including_punctuation": 3364,
-      "sha256": "951adc08f7a10cbaca38cfe4125bfc3721f01d6a869fe6c0dc17b62ae28e4930"
+      "han": 2518,
+      "non_whitespace_including_punctuation": 2878,
+      "sha256": "1d4b692d84c957a822c91816edf658969f53d31a403cd9318c9a7f503c20a565"
     },
     {
       "number": 17,
       "path": "正文/第017章_放在手边.md",
-      "han": 2403,
-      "non_whitespace_including_punctuation": 2750,
-      "sha256": "9fb3882310d0110de2f9e030ce399761dcdcced67b6749f30356e5d89a0677b9"
+      "han": 837,
+      "non_whitespace_including_punctuation": 961,
+      "sha256": "46165a4876ed0adab5a41d1b655c3ae147873ab0f11e7ab4b0ddcf1a16bdbd0c"
     },
     {
       "number": 18,
@@ -146,9 +146,9 @@
     {
       "number": 19,
       "path": "正文/第019章_右边回来的声音.md",
-      "han": 2802,
-      "non_whitespace_including_punctuation": 3171,
-      "sha256": "80662f2d068070ce6ad7e24183a5e11a199027df571d60501bb746b77b656208"
+      "han": 2843,
+      "non_whitespace_including_punctuation": 3220,
+      "sha256": "d3c5191d99550cb7ec31a61c0985c31b3ae994d377f3c5a83d614ce5d69da1fb"
     },
     {
       "number": 20,
@@ -219,6 +219,27 @@
       "han": 2118,
       "non_whitespace_including_punctuation": 2421,
       "sha256": "0fb25f7136d9f18283e883d5fdaed8a9832d9ab8b263b35b52a03db0ddd0ff95"
+    },
+    {
+      "number": 30,
+      "path": "正文/第030章_酱另外放.md",
+      "han": 3274,
+      "non_whitespace_including_punctuation": 3979,
+      "sha256": "161a7e4ef127a8b9f721fcfc70d59c2d41f04494f7c48982c0836332929fbb1e"
+    },
+    {
+      "number": 31,
+      "path": "正文/第031章_鱼先不要说话.md",
+      "han": 2024,
+      "non_whitespace_including_punctuation": 2361,
+      "sha256": "98caba7f3fa1513f808a4006bae564af76c64beb9e6e48c587ded4a2878d82d3"
+    },
+    {
+      "number": 32,
+      "path": "正文/第032章_把包放进去.md",
+      "han": 2633,
+      "non_whitespace_including_punctuation": 3019,
+      "sha256": "554747d898a87de7ba28a8c96f088367bbc8b0bf727ee24550c6282d039dd5f7"
     }
   ],
   "errors": [],
