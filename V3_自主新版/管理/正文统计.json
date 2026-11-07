@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 22,
-  "chapter_count": 22,
-  "total_han": 69398,
-  "total_non_whitespace_including_punctuation": 80611,
+  "through_chapter": 24,
+  "chapter_count": 24,
+  "total_han": 74344,
+  "total_non_whitespace_including_punctuation": 86338,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -170,6 +170,20 @@
       "han": 2676,
       "non_whitespace_including_punctuation": 3194,
       "sha256": "9fd2a12f2b92254d8c632c9d097abcc31884546ab3a26aeaefa0a442114a65a8"
+    },
+    {
+      "number": 23,
+      "path": "正文/第023章_篮子还在.md",
+      "han": 2602,
+      "non_whitespace_including_punctuation": 3008,
+      "sha256": "88d81081143a21d2979fe2003b0e529b32193a6f0d44ff53dd78191da5ac31ac"
+    },
+    {
+      "number": 24,
+      "path": "正文/第024章_先听后面.md",
+      "han": 2344,
+      "non_whitespace_including_punctuation": 2719,
+      "sha256": "b40dea5cce8c0195a5de05b1a654dad0cdda5553d7c1e0b2935233bd46416401"
     }
   ],
   "errors": [],
