@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 44,
-  "chapter_count": 44,
-  "total_han": 122741,
-  "total_non_whitespace_including_punctuation": 143210,
+  "through_chapter": 46,
+  "chapter_count": 46,
+  "total_han": 128907,
+  "total_non_whitespace_including_punctuation": 150346,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -324,6 +324,20 @@
       "han": 2567,
       "non_whitespace_including_punctuation": 2950,
       "sha256": "0e473bcede4d84565be5a430d5901c2713f2e90bec44a94a6444bd582bedb06c"
+    },
+    {
+      "number": 45,
+      "path": "01_新文档/01_正文/第045章_就要这一块.md",
+      "han": 2942,
+      "non_whitespace_including_punctuation": 3398,
+      "sha256": "44151826653b9908801697449bc058cb7f7507de42f37a8df96d2417b9e01d90"
+    },
+    {
+      "number": 46,
+      "path": "01_新文档/01_正文/第046章_再放一会儿.md",
+      "han": 3224,
+      "non_whitespace_including_punctuation": 3738,
+      "sha256": "07f42dd8e62bb304edee41dea8bbc0d29d6f7ac46a69ce68b771fe927231fd2c"
     }
   ],
   "errors": [],
