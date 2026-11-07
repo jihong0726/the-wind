@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 59,
-  "chapter_count": 59,
-  "total_han": 170938,
-  "total_non_whitespace_including_punctuation": 199645,
+  "through_chapter": 60,
+  "chapter_count": 60,
+  "total_han": 174622,
+  "total_non_whitespace_including_punctuation": 203961,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -429,6 +429,13 @@
       "han": 4393,
       "non_whitespace_including_punctuation": 5167,
       "sha256": "bf0d7e539feea58b4bfa06226f9a9acd0c93986cd0200b242e0ba2b1d29d0ad7"
+    },
+    {
+      "number": 60,
+      "path": "01_新文档/01_正文/第060章_三点以后.md",
+      "han": 3684,
+      "non_whitespace_including_punctuation": 4316,
+      "sha256": "824d75d16407387ec75ff1968d5c43009ccdd612b202b281187913f019d3c492"
     }
   ],
   "errors": [],
