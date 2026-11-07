@@ -1,9 +1,9 @@
 {
   "scope": "V3 current files only; 99_旧文档 excluded",
-  "through_chapter": 58,
-  "chapter_count": 58,
-  "total_han": 166545,
-  "total_non_whitespace_including_punctuation": 194478,
+  "through_chapter": 59,
+  "chapter_count": 59,
+  "total_han": 170938,
+  "total_non_whitespace_including_punctuation": 199645,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -422,6 +422,13 @@
       "han": 5237,
       "non_whitespace_including_punctuation": 6137,
       "sha256": "4e4282c9007c4e12c9a9b3b0e37fcceba79ea246f93acf9dea3c01cfcc76a956"
+    },
+    {
+      "number": 59,
+      "path": "01_新文档/01_正文/第059章_这箱不拆.md",
+      "han": 4393,
+      "non_whitespace_including_punctuation": 5167,
+      "sha256": "bf0d7e539feea58b4bfa06226f9a9acd0c93986cd0200b242e0ba2b1d29d0ad7"
     }
   ],
   "errors": [],
