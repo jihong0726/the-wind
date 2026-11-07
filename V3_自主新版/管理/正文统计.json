@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 24,
-  "chapter_count": 24,
-  "total_han": 74344,
-  "total_non_whitespace_including_punctuation": 86338,
+  "through_chapter": 27,
+  "chapter_count": 27,
+  "total_han": 81741,
+  "total_non_whitespace_including_punctuation": 95062,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -184,6 +184,27 @@
       "han": 2344,
       "non_whitespace_including_punctuation": 2719,
       "sha256": "b40dea5cce8c0195a5de05b1a654dad0cdda5553d7c1e0b2935233bd46416401"
+    },
+    {
+      "number": 25,
+      "path": "正文/第025章_要不要一起吃饭.md",
+      "han": 2301,
+      "non_whitespace_including_punctuation": 2682,
+      "sha256": "6f0764aa51af812aaf33a1894083f4c64dbaaf66c4b632aa95ab5d333d9c047d"
+    },
+    {
+      "number": 26,
+      "path": "正文/第026章_第一次听见.md",
+      "han": 2449,
+      "non_whitespace_including_punctuation": 2939,
+      "sha256": "ae48ace20313dc260ba9224e701ddd759907c016130597abf4cf860bfabacd14"
+    },
+    {
+      "number": 27,
+      "path": "正文/第027章_两双拖鞋.md",
+      "han": 2647,
+      "non_whitespace_including_punctuation": 3103,
+      "sha256": "5a498d9c449b7febb094168265a2596b3c7696842be8b11f14eb921d9cf9f3dd"
     }
   ],
   "errors": [],
