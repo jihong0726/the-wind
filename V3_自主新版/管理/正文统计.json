@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 32,
-  "chapter_count": 32,
-  "total_han": 90212,
-  "total_non_whitespace_including_punctuation": 105207,
+  "through_chapter": 33,
+  "chapter_count": 33,
+  "total_han": 92607,
+  "total_non_whitespace_including_punctuation": 107976,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -240,6 +240,13 @@
       "han": 2633,
       "non_whitespace_including_punctuation": 3019,
       "sha256": "554747d898a87de7ba28a8c96f088367bbc8b0bf727ee24550c6282d039dd5f7"
+    },
+    {
+      "number": 33,
+      "path": "正文/第033章_烧鸡的另一面.md",
+      "han": 2395,
+      "non_whitespace_including_punctuation": 2769,
+      "sha256": "0c9f5edbd17ff55bf4401ab449c1c8a07af90548f942c3a16e65ffda62489548"
     }
   ],
   "errors": [],
