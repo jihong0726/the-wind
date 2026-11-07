@@ -1,9 +1,9 @@
 {
   "scope": "V3 only; historical sources excluded",
-  "through_chapter": 6,
-  "chapter_count": 6,
-  "total_han": 26546,
-  "total_non_whitespace_including_punctuation": 30821,
+  "through_chapter": 7,
+  "chapter_count": 7,
+  "total_han": 29260,
+  "total_non_whitespace_including_punctuation": 33982,
   "target_non_whitespace_including_punctuation": 3200000,
   "target_range": [
     3040000,
@@ -58,6 +58,13 @@
       "han": 3372,
       "non_whitespace_including_punctuation": 3901,
       "sha256": "c384f1813eb29b72f61a6b6a71bde9e877b48c410710d8031e62eed38f819924"
+    },
+    {
+      "number": 7,
+      "path": "正文/第007章_她没有解释的部分.md",
+      "han": 2714,
+      "non_whitespace_including_punctuation": 3161,
+      "sha256": "55dfca92cef9b866b3cc1797c47bd252833a9f7e23d93b09a60c072e1159145e"
     }
   ],
   "errors": [],
